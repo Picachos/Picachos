@@ -1,0 +1,180 @@
+﻿* {
+    margin:0;
+    padding:0;   
+    box-sizing:border-box;
+    font-family:Cambria; 
+}
+
+/*se agrega la imagen de fondo para dar diseño al formulario*/
+.sectImgFondo {
+    position: absolute;
+    width: 54%;
+    height: 65%; 
+    top: 30%; 
+    left: 28%;
+   
+}
+
+.imgFondoRegCli {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+/*se agraga una divicion que contendra el formulario */
+.sectContenedor{
+    position:absolute;
+    width:60%;
+    height:55%;
+    top:40%;
+    margin-top:auto;
+    left:28%;
+     
+}
+
+.labRazonSocial{
+    position:absolute;
+    top: 6%;
+    left: 5%;
+    font-size: 17px;
+    color: #34236d; 
+}
+
+.txbRazonSocial {
+    position:absolute;
+    top: 11%;
+    left: 5%;
+    font-size: 17px;
+    color: #34236d; 
+    background:none;
+    border:none;
+    border-bottom:1px solid #10023e;
+}
+
+.reqFVRazSocial {
+    position:absolute;
+    top: 17%;
+    left: 5%;
+    font-size: 17px;
+    color: red; 
+}
+
+.labRFC{
+    position:absolute;
+    top: 28%;
+    left: 5%;
+    font-size: 17px;
+    color: #34236d; 
+}
+
+.txbRFC {
+    position:absolute;
+    top: 32%;
+    left: 5%;
+    font-size: 17px;
+    color: #34236d; 
+    background:none;
+    border:none;
+    border-bottom:1px solid #10023e;
+}
+
+.reqFVRFC {
+    position:absolute;
+    top: 37%;
+    left: 5%;
+    font-size: 17px;
+    color: red; 
+}
+
+.labDireccion{
+    position:absolute;
+    top: 48%;
+    left: 5%;
+    font-size: 17px;
+    color: #34236d; 
+}
+
+.TextDireccion {
+    position:absolute;
+    top: 52%;
+    left: 5%;
+    font-size: 17px;
+    color: #34236d; 
+    background:none;
+    border:none;
+    border-bottom:1px solid #10023e;
+}
+
+.reqFVDirecc {
+    position:absolute;
+    top: 58%;
+    left: 5%;
+    font-size: 17px;
+    color: red; 
+}
+
+.labTelefono{
+    position:absolute;
+    top: 6%;
+    left: 45%;
+    font-size: 17px;
+    color: #34236d; 
+}
+
+.txbTelefono {
+    position:absolute;
+    top: 10%;
+    left: 45%;
+    font-size: 17px;
+    color: #34236d; 
+    background:none;
+    border:none;
+    border-bottom:1px solid #10023e;
+}
+
+.reqFVTelefono {
+    position:absolute;
+    top: 16%;
+    left: 45%;
+    font-size: 17px;
+    color: red; 
+}
+
+
+.labObservacion{
+    position:absolute;
+    top: 28%;
+    left: 45%;
+    font-size: 17px;
+    color: #34236d; 
+}
+
+.txbObservacion{
+      position:absolute;
+      top:35%;
+      left:45%;     
+      font-size:17px;
+      width: 37%;
+      height:25%;
+}
+
+
+.btnGuardar{
+     position:absolute;
+     top:76%;
+     left:64%;
+     background-color:#10023e;
+     color:white;
+     width:10%;
+}
+
+.btnLimpiar{
+     position:absolute;
+     top:76%;
+     left:52%;
+     background-color:#10023e;
+     color:white;
+     width:10%;
+}

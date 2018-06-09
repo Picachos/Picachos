@@ -1,0 +1,13 @@
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\bin\Picachos.Vista.dll
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\bin\Picachos.Vista.pdb
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\bin\Picachos.Vista.xml
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\bin\EntityFramework.dll
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\bin\EntityFramework.SqlServer.dll
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\bin\EntityFramework.xml
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\bin\EntityFramework.SqlServer.xml
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\obj\Debug\Picachos.Presentacion.vbprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\obj\Debug\Picachos.Vista.Resources.resources
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\obj\Debug\Picachos.Presentacion.vbproj.GenerateResource.Cache
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\obj\Debug\Picachos.Vista.dll
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\obj\Debug\Picachos.Vista.xml
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Vista\obj\Debug\Picachos.Vista.pdb

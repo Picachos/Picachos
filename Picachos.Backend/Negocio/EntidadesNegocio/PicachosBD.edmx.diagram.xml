@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f09d76783f9c41f9b4cf61de64813754" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="ModeloPicachos.agendum" Width="1.5" PointX="3.75" PointY="14.125" />
+        <EntityTypeShape EntityType="ModeloPicachos.cliente" Width="1.5" PointX="0.75" PointY="5.625" />
+        <EntityTypeShape EntityType="ModeloPicachos.convenio" Width="1.5" PointX="3" PointY="10.625" />
+        <EntityTypeShape EntityType="ModeloPicachos.corteDeDia" Width="1.5" PointX="12.75" PointY="7.625" />
+        <EntityTypeShape EntityType="ModeloPicachos.deuda" Width="1.5" PointX="12.75" PointY="4.125" />
+        <EntityTypeShape EntityType="ModeloPicachos.entradasalidaMateriaprima" Width="1.5" PointX="8.25" PointY="12" />
+        <EntityTypeShape EntityType="ModeloPicachos.equipo" Width="1.5" PointX="2.875" PointY="3.25" />
+        <EntityTypeShape EntityType="ModeloPicachos.materiaPrima" Width="1.5" PointX="6" PointY="11.875" />
+        <EntityTypeShape EntityType="ModeloPicachos.notaDeVenta" Width="1.5" PointX="18" PointY="8.875" />
+        <EntityTypeShape EntityType="ModeloPicachos.pago" Width="1.5" PointX="15" PointY="7.875" />
+        <EntityTypeShape EntityType="ModeloPicachos.pedido" Width="1.5" PointX="3.875" PointY="6.625" />
+        <EntityTypeShape EntityType="ModeloPicachos.prestamoEquipo" Width="1.5" PointX="0.75" PointY="3.5" />
+        <EntityTypeShape EntityType="ModeloPicachos.productoTerminado" Width="1.5" PointX="6.375" PointY="3.75" />
+        <EntityTypeShape EntityType="ModeloPicachos.salidaDeEfectivo" Width="1.5" PointX="15" PointY="11.125" />
+        <EntityTypeShape EntityType="ModeloPicachos.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ModeloPicachos.usuario" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ModeloPicachos.venta" Width="1.5" PointX="10.5" PointY="8" />
+        <AssociationConnector Association="ModeloPicachos.fk_agendaNot" />
+        <AssociationConnector Association="ModeloPicachos.fk_AgendaSped" />
+        <AssociationConnector Association="ModeloPicachos.FK__convenio__fk_Cli__03275C9C" />
+        <AssociationConnector Association="ModeloPicachos.fk_ClientePrestEq" />
+        <AssociationConnector Association="ModeloPicachos.fk_ClienteSped" />
+        <AssociationConnector Association="ModeloPicachos.fk_CorteDeDiapag" />
+        <AssociationConnector Association="ModeloPicachos.fk_CorteDediaSale" />
+        <AssociationConnector Association="ModeloPicachos.fk_VentaCort" />
+        <AssociationConnector Association="ModeloPicachos.fk_DeudaNot" />
+        <AssociationConnector Association="ModeloPicachos.fk_Deudapag" />
+        <AssociationConnector Association="ModeloPicachos.fk_Materiaprima" />
+        <AssociationConnector Association="ModeloPicachos.fk_PrestamoEquipoE" />
+        <AssociationConnector Association="ModeloPicachos.productoUnionmateriaprima" />
+        <AssociationConnector Association="ModeloPicachos.productoUnionPedido" />
+        <AssociationConnector Association="ModeloPicachos.productoUnionventa" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

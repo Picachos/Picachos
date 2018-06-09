@@ -1,0 +1,106 @@
+﻿
+/*se inicia la pagina para aplicar cero margenes y letra cambria al documento*/
+* {
+    margin:0;
+    padding:0;   
+    box-sizing:border-box;
+    font-family:Cambria;
+}
+
+/*el cuerpo de la pagina contendra una imagen de fondo fija y vista en un porcentaje dedifido*/
+body {
+ /*   background-image:url(../Vistas/Image/fondoLogin.jpg);
+    background-attachment: fixed;	
+    background-position: 54% 25%;*/
+}
+
+/*se graga una seccion que contendra el formulario */
+.sectContenedor {
+    position:absolute;
+    top:9%;
+    left:25%;
+    width:39%;
+    height:419px;
+    color:red;
+}
+
+.imgFonLog {
+    position:absolute;
+    top:2%;
+    left:31%;
+    width:35%;
+    height:80%;   
+}
+
+/*las siguientes tres secciones agregan etiqueta usuario, campo para escritura y un validador de datos*/
+
+.labNomUsuario{
+      position:absolute;
+      top:43%;
+      left:35%;
+      font-size:17px;
+      color:#34236d;
+      text-align:center;
+}
+
+
+.txbNomUsuario {
+      position:absolute;
+      top:49%;
+      left:35%;
+      width:45%;
+      padding:1.5px 1.5px;
+      border-color:#34236d;
+}
+
+.reqFVLogUsu{
+      position:absolute;
+      top:54%;
+      left:35%;
+      font-size:17px;
+}
+
+/*las siguientes tres secciones agregan etiqueta contraseña, campo para escritura y un validador de datos*/
+.labContrasena {
+      position:absolute;
+      top:59%;
+      left:35%;
+      font-size:17px;
+      color:#34236d;
+}
+
+.txbContrasena {
+      position:absolute;
+      top:64%;
+      left:35%;
+      width:45%;
+      padding:1.5px 1.5px;
+      border-color:#34236d;
+            
+}
+
+.reqFVLogContra {
+      position:absolute;
+      top:69%;
+      left:35%;
+      font-size:17px;
+}
+ 
+
+/*se agrega un boton para entrar a la pagina se puede ver su metodo en Vistas/Loging.aspxs/Loging.aspxcs (clickBotonEntrar)*/
+.btnEntrar{
+     position:absolute;
+     top:80%;
+     left:52%;
+     font-size:17px;
+     padding: 2px 10px 2px 10px;
+}
+
+
+
+
+
+
+    
+
+

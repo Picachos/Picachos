@@ -1,0 +1,152 @@
+﻿* {
+    margin:0;
+    padding:0;   
+    box-sizing:border-box;
+    font-family:Cambria; 
+}
+
+body {     
+     background-color:rgba(171, 233, 233, 0.66);
+}
+
+#sectContenedor{
+    width:85%;    
+    max-width:100%;  
+    margin:0 auto;
+    overflow:hidden;
+    background-color:white;
+    min-height:120vh;
+    background-attachment: fixed;	
+    background-position: 54% 10%;
+}
+
+
+#imgCabecera {
+    width: 100%;
+    margin: 0% 0%;
+   /* box-shadow:7px 7px 9px #CE852A;*/
+   /* border:1px rgba(0,0,0,0.3) solid;*/
+}
+
+
+#labUsuario {
+    position: absolute;
+    width: 14%;
+    margin: 0% 0%;
+    height: 5%;
+    top:3.8%;
+    left:66.5%;
+    color: #141f5f;
+    font-size: 14px;
+}
+
+#labUsuarioID {
+    position: absolute;
+    width: 14%;
+    margin: 0% 0%;
+    height: 5%;
+    top:6.5%;
+    left:67.9%;
+    color: #141f5f;
+    font-size: 14px;
+}
+
+#labRol {
+    position: absolute;
+    width: 14%;
+    margin: 0% 0%;
+    height: 5%;
+    top:9.8%;
+    left:69%;
+    color: #141f5f;
+    font-size: 14px;
+}
+
+
+#btnCeSesion {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    position: absolute;
+    width: 9%;
+    margin: 1px 1px;
+    height: 4%;
+    top: 15.1%;
+    right: 9%;
+    color: red;
+    background: none;
+    font-size: 16px;
+}
+
+
+.sectMenPripal {  /*localizacion del menu*/
+  height:30%;  
+  background:none;
+  width:10%;   
+  color:#fff;
+  /*float:left;*/
+  margin:4% 3%;
+  font-weight:200;
+  font-size:20px;  
+ /* border: 2px red solid ;*/
+
+}
+
+.iconosRedondos {
+    width: 50%;
+    height:50%;
+    margin-left:25%;
+}
+
+nav ul {               
+    display:block;
+    list-style:none;
+}
+
+
+nav ul ul { /*se oculta el submnu*/
+     display:none;      
+}
+
+nav a {
+     display:block;
+     padding:5px 17px;
+     text-decoration:none;
+  /*  border: blue 5px groove;  */
+     border:none;
+}
+
+ 
+nav a:hover {     
+     background-color:none;               
+}
+
+
+nav ul li:hover ul {
+    display:block;
+    background:#d6eaf8;
+    font-size:90%;
+    box-sizing:border-box; 
+    border-radius:5px;
+    border-bottom-left-radius:5px; 
+    /*position:absolute;  para listas horizontales*/
+}
+
+nav ul li:hover ul a {            
+    border:groove;
+    border-radius:5px;
+         /* border-bottom:groove;   */  
+}
+
+
+@media (max-width:680px) {
+
+   
+}
+
+@media (max-width:480px) {
+
+
+}
+
+

@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModeloPicachos.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModeloPicachosStoreContainer">
+    <EntitySet Name="agenda" EntityType="ModeloPicachos.Store.agenda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="cliente" EntityType="ModeloPicachos.Store.cliente" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="convenio" EntityType="ModeloPicachos.Store.convenio" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="corteDeDia" EntityType="ModeloPicachos.Store.corteDeDia" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="deuda" EntityType="ModeloPicachos.Store.deuda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="entradasalidaMateriaprima" EntityType="ModeloPicachos.Store.entradasalidaMateriaprima" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="equipo" EntityType="ModeloPicachos.Store.equipo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Materiaprima" EntityType="ModeloPicachos.Store.Materiaprima" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="notaDeVenta" EntityType="ModeloPicachos.Store.notaDeVenta" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="pago" EntityType="ModeloPicachos.Store.pago" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="pedido" EntityType="ModeloPicachos.Store.pedido" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="prestamoEquipo" EntityType="ModeloPicachos.Store.prestamoEquipo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="productoTerminado" EntityType="ModeloPicachos.Store.productoTerminado" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="salidaDeEfectivo" EntityType="ModeloPicachos.Store.salidaDeEfectivo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="ModeloPicachos.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="usuario" EntityType="ModeloPicachos.Store.usuario" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="venta" EntityType="ModeloPicachos.Store.venta" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__convenio__fk_Cli__4668671F" Association="ModeloPicachos.Store.FK__convenio__fk_Cli__4668671F">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="convenio" EntitySet="convenio" />
+    </AssociationSet>
+    <AssociationSet Name="fk_agendaNot" Association="ModeloPicachos.Store.fk_agendaNot">
+      <End Role="agenda" EntitySet="agenda" />
+      <End Role="notaDeVenta" EntitySet="notaDeVenta" />
+    </AssociationSet>
+    <AssociationSet Name="fk_AgendaSped" Association="ModeloPicachos.Store.fk_AgendaSped">
+      <End Role="agenda" EntitySet="agenda" />
+      <End Role="pedido" EntitySet="pedido" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ClientePrestEq" Association="ModeloPicachos.Store.fk_ClientePrestEq">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="prestamoEquipo" EntitySet="prestamoEquipo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ClienteSped" Association="ModeloPicachos.Store.fk_ClienteSped">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="pedido" EntitySet="pedido" />
+    </AssociationSet>
+    <AssociationSet Name="fk_CorteDeDiapag" Association="ModeloPicachos.Store.fk_CorteDeDiapag">
+      <End Role="corteDeDia" EntitySet="corteDeDia" />
+      <End Role="pago" EntitySet="pago" />
+    </AssociationSet>
+    <AssociationSet Name="fk_CorteDediaSale" Association="ModeloPicachos.Store.fk_CorteDediaSale">
+      <End Role="corteDeDia" EntitySet="corteDeDia" />
+      <End Role="salidaDeEfectivo" EntitySet="salidaDeEfectivo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_DeudaNot" Association="ModeloPicachos.Store.fk_DeudaNot">
+      <End Role="deuda" EntitySet="deuda" />
+      <End Role="notaDeVenta" EntitySet="notaDeVenta" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Deudapag" Association="ModeloPicachos.Store.fk_Deudapag">
+      <End Role="deuda" EntitySet="deuda" />
+      <End Role="pago" EntitySet="pago" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Materiaprima" Association="ModeloPicachos.Store.fk_Materiaprima">
+      <End Role="Materiaprima" EntitySet="Materiaprima" />
+      <End Role="entradasalidaMateriaprima" EntitySet="entradasalidaMateriaprima" />
+    </AssociationSet>
+    <AssociationSet Name="fk_PedidoProdTer" Association="ModeloPicachos.Store.fk_PedidoProdTer">
+      <End Role="pedido" EntitySet="pedido" />
+      <End Role="productoTerminado" EntitySet="productoTerminado" />
+    </AssociationSet>
+    <AssociationSet Name="fk_PrestamoEquipoE" Association="ModeloPicachos.Store.fk_PrestamoEquipoE">
+      <End Role="prestamoEquipo" EntitySet="prestamoEquipo" />
+      <End Role="equipo" EntitySet="equipo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ProductoAltaMP" Association="ModeloPicachos.Store.fk_ProductoAltaMP">
+      <End Role="productoTerminado" EntitySet="productoTerminado" />
+      <End Role="Materiaprima" EntitySet="Materiaprima" />
+    </AssociationSet>
+    <AssociationSet Name="fk_VentaCort" Association="ModeloPicachos.Store.fk_VentaCort">
+      <End Role="venta" EntitySet="venta" />
+      <End Role="corteDeDia" EntitySet="corteDeDia" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Ventaprodt" Association="ModeloPicachos.Store.fk_Ventaprodt">
+      <End Role="venta" EntitySet="venta" />
+      <End Role="productoTerminado" EntitySet="productoTerminado" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="agenda">
+    <Key>
+      <PropertyRef Name="agendaID" />
+    </Key>
+    <Property Name="agendaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="fechaEntrega" Type="date" />
+  </EntityType>
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="clienteID" />
+    </Key>
+    <Property Name="clienteID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="rfc" Type="nvarchar" MaxLength="50" />
+    <Property Name="observaciones" Type="nvarchar" MaxLength="50" />
+    <Property Name="direccion" Type="nvarchar" MaxLength="50" />
+    <Property Name="telefono" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="convenio">
+    <Key>
+      <PropertyRef Name="convenioID" />
+    </Key>
+    <Property Name="convenioID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="50" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="formato" Type="nvarchar" MaxLength="50" />
+    <Property Name="fk_ClienteIDcon" Type="int" />
+  </EntityType>
+  <EntityType Name="corteDeDia">
+    <Key>
+      <PropertyRef Name="corteID" />
+    </Key>
+    <Property Name="corteID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ventaID" Type="int" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="total" Type="float" />
+    <Property Name="lecturaInicial" Type="nvarchar" MaxLength="50" />
+    <Property Name="lecturaFinal" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="deuda">
+    <Key>
+      <PropertyRef Name="deudaID" />
+    </Key>
+    <Property Name="deudaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sumatoriatotal" Type="float" />
+    <Property Name="montotal" Type="float" />
+  </EntityType>
+  <EntityType Name="entradasalidaMateriaprima">
+    <Key>
+      <PropertyRef Name="EntSalID" />
+    </Key>
+    <Property Name="EntSalID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="materiaPrimaID" Type="int" />
+    <Property Name="observacion" Type="nvarchar" MaxLength="150" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="cantidadEntSal" Type="int" />
+  </EntityType>
+  <EntityType Name="equipo">
+    <Key>
+      <PropertyRef Name="equipoID" />
+    </Key>
+    <Property Name="equipoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="prestamoEquipoID" Type="int" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="50" />
+    <Property Name="ultimaFechaDeMantenimiento" Type="date" />
+    <Property Name="estatus" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Materiaprima">
+    <Key>
+      <PropertyRef Name="materiaPrimaID" />
+    </Key>
+    <Property Name="materiaPrimaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="productoID" Type="int" />
+    <Property Name="nombreMateria" Type="nvarchar" MaxLength="50" />
+    <Property Name="existencia" Type="int" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="notaDeVenta">
+    <Key>
+      <PropertyRef Name="notaDeVentaID" />
+    </Key>
+    <Property Name="notaDeVentaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="deudaID" Type="int" />
+    <Property Name="agendaID" Type="int" />
+    <Property Name="fecha" Type="date" />
+  </EntityType>
+  <EntityType Name="pago">
+    <Key>
+      <PropertyRef Name="pagoID" />
+    </Key>
+    <Property Name="pagoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="corteID" Type="int" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="monto" Type="float" />
+    <Property Name="deudaID" Type="int" />
+  </EntityType>
+  <EntityType Name="pedido">
+    <Key>
+      <PropertyRef Name="pedidoID" />
+    </Key>
+    <Property Name="pedidoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="fechaDeEntrega" Type="date" />
+    <Property Name="clienteID" Type="int" />
+    <Property Name="agendaID" Type="int" />
+  </EntityType>
+  <EntityType Name="prestamoEquipo">
+    <Key>
+      <PropertyRef Name="prestamoEquipoID" />
+    </Key>
+    <Property Name="prestamoEquipoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="clienteID" Type="int" />
+  </EntityType>
+  <EntityType Name="productoTerminado">
+    <Key>
+      <PropertyRef Name="productoID" />
+    </Key>
+    <Property Name="productoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ventaID" Type="int" />
+    <Property Name="pedidoID" Type="int" />
+    <Property Name="nombreProducto" Type="nvarchar" MaxLength="50" />
+    <Property Name="descripcionProducto" Type="nvarchar" MaxLength="50" />
+    <Property Name="precioProducto" Type="float" />
+    <Property Name="cantidad" Type="int" />
+    <Property Name="fechaEntrada" Type="date" />
+    <Property Name="fechaSalida" Type="date" />
+    <Property Name="observacion" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="salidaDeEfectivo">
+    <Key>
+      <PropertyRef Name="salidaID" />
+    </Key>
+    <Property Name="salidaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="corteID" Type="int" />
+    <Property Name="monto" Type="float" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="usuarioID" />
+    </Key>
+    <Property Name="usuarioID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="nombreUsuario" Type="nvarchar" MaxLength="50" />
+    <Property Name="contrasena" Type="nvarchar" MaxLength="50" />
+    <Property Name="rol" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="venta">
+    <Key>
+      <PropertyRef Name="ventaID" />
+    </Key>
+    <Property Name="ventaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="venta" Type="int" />
+    <Property Name="cantidad" Type="int" />
+    <Property Name="total" Type="float" />
+  </EntityType>
+  <Association Name="FK__convenio__fk_Cli__4668671F">
+    <End Role="cliente" Type="ModeloPicachos.Store.cliente" Multiplicity="0..1" />
+    <End Role="convenio" Type="ModeloPicachos.Store.convenio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="clienteID" />
+      </Principal>
+      <Dependent Role="convenio">
+        <PropertyRef Name="fk_ClienteIDcon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_agendaNot">
+    <End Role="agenda" Type="ModeloPicachos.Store.agenda" Multiplicity="0..1" />
+    <End Role="notaDeVenta" Type="ModeloPicachos.Store.notaDeVenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="agenda">
+        <PropertyRef Name="agendaID" />
+      </Principal>
+      <Dependent Role="notaDeVenta">
+        <PropertyRef Name="agendaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_AgendaSped">
+    <End Role="agenda" Type="ModeloPicachos.Store.agenda" Multiplicity="0..1" />
+    <End Role="pedido" Type="ModeloPicachos.Store.pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="agenda">
+        <PropertyRef Name="agendaID" />
+      </Principal>
+      <Dependent Role="pedido">
+        <PropertyRef Name="agendaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ClientePrestEq">
+    <End Role="cliente" Type="ModeloPicachos.Store.cliente" Multiplicity="0..1" />
+    <End Role="prestamoEquipo" Type="ModeloPicachos.Store.prestamoEquipo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="clienteID" />
+      </Principal>
+      <Dependent Role="prestamoEquipo">
+        <PropertyRef Name="clienteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ClienteSped">
+    <End Role="cliente" Type="ModeloPicachos.Store.cliente" Multiplicity="0..1" />
+    <End Role="pedido" Type="ModeloPicachos.Store.pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="clienteID" />
+      </Principal>
+      <Dependent Role="pedido">
+        <PropertyRef Name="clienteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_CorteDeDiapag">
+    <End Role="corteDeDia" Type="ModeloPicachos.Store.corteDeDia" Multiplicity="0..1" />
+    <End Role="pago" Type="ModeloPicachos.Store.pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="corteDeDia">
+        <PropertyRef Name="corteID" />
+      </Principal>
+      <Dependent Role="pago">
+        <PropertyRef Name="corteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_CorteDediaSale">
+    <End Role="corteDeDia" Type="ModeloPicachos.Store.corteDeDia" Multiplicity="0..1" />
+    <End Role="salidaDeEfectivo" Type="ModeloPicachos.Store.salidaDeEfectivo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="corteDeDia">
+        <PropertyRef Name="corteID" />
+      </Principal>
+      <Dependent Role="salidaDeEfectivo">
+        <PropertyRef Name="corteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_DeudaNot">
+    <End Role="deuda" Type="ModeloPicachos.Store.deuda" Multiplicity="0..1" />
+    <End Role="notaDeVenta" Type="ModeloPicachos.Store.notaDeVenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="deuda">
+        <PropertyRef Name="deudaID" />
+      </Principal>
+      <Dependent Role="notaDeVenta">
+        <PropertyRef Name="deudaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Deudapag">
+    <End Role="deuda" Type="ModeloPicachos.Store.deuda" Multiplicity="0..1" />
+    <End Role="pago" Type="ModeloPicachos.Store.pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="deuda">
+        <PropertyRef Name="deudaID" />
+      </Principal>
+      <Dependent Role="pago">
+        <PropertyRef Name="deudaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Materiaprima">
+    <End Role="Materiaprima" Type="ModeloPicachos.Store.Materiaprima" Multiplicity="0..1" />
+    <End Role="entradasalidaMateriaprima" Type="ModeloPicachos.Store.entradasalidaMateriaprima" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Materiaprima">
+        <PropertyRef Name="materiaPrimaID" />
+      </Principal>
+      <Dependent Role="entradasalidaMateriaprima">
+        <PropertyRef Name="materiaPrimaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_PedidoProdTer">
+    <End Role="pedido" Type="ModeloPicachos.Store.pedido" Multiplicity="0..1" />
+    <End Role="productoTerminado" Type="ModeloPicachos.Store.productoTerminado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pedido">
+        <PropertyRef Name="pedidoID" />
+      </Principal>
+      <Dependent Role="productoTerminado">
+        <PropertyRef Name="pedidoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_PrestamoEquipoE">
+    <End Role="prestamoEquipo" Type="ModeloPicachos.Store.prestamoEquipo" Multiplicity="0..1" />
+    <End Role="equipo" Type="ModeloPicachos.Store.equipo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="prestamoEquipo">
+        <PropertyRef Name="prestamoEquipoID" />
+      </Principal>
+      <Dependent Role="equipo">
+        <PropertyRef Name="prestamoEquipoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ProductoAltaMP">
+    <End Role="productoTerminado" Type="ModeloPicachos.Store.productoTerminado" Multiplicity="0..1" />
+    <End Role="Materiaprima" Type="ModeloPicachos.Store.Materiaprima" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="productoTerminado">
+        <PropertyRef Name="productoID" />
+      </Principal>
+      <Dependent Role="Materiaprima">
+        <PropertyRef Name="productoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_VentaCort">
+    <End Role="venta" Type="ModeloPicachos.Store.venta" Multiplicity="0..1" />
+    <End Role="corteDeDia" Type="ModeloPicachos.Store.corteDeDia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="venta">
+        <PropertyRef Name="ventaID" />
+      </Principal>
+      <Dependent Role="corteDeDia">
+        <PropertyRef Name="ventaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Ventaprodt">
+    <End Role="venta" Type="ModeloPicachos.Store.venta" Multiplicity="0..1" />
+    <End Role="productoTerminado" Type="ModeloPicachos.Store.productoTerminado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="venta">
+        <PropertyRef Name="ventaID" />
+      </Principal>
+      <Dependent Role="productoTerminado">
+        <PropertyRef Name="ventaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

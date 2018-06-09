@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1ec92702a94649728957beaa024ab00a" Name="Diagram1">
+        <EntityTypeShape EntityType="picachosModel.agenda" Width="1.5" PointX="3.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.cliente" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.convenio" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.corteDeDia" Width="1.5" PointX="15.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.deuda" Width="1.5" PointX="15.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.entradasalidaMateriaprima" Width="1.5" PointX="8.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.equipo" Width="1.5" PointX="5.25" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.materiaPrima" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.notaDeVenta" Width="1.5" PointX="18" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.pago" Width="1.5" PointX="18" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.pedido" Width="1.5" PointX="6" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.prestamoEquipo" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.productoTerminado" Width="1.5" PointX="8.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.productoTerminadoES" Width="1.5" PointX="10.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.salidaDeEfectivo" Width="1.5" PointX="18" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.usuario" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="picachosModel.venta" Width="1.5" PointX="13.5" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="picachosModel.fk_agendaNot" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_AgendaSped" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.FK__convenio__fk_Cli__2082B559" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_ClientePrestEq" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_ClienteSped" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_Clienteven" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_CorteDeDiapag" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_CorteDediaSale" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_VentaCort" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_DeudaNot" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_Deudapag" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_Materiaprima" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_PrestamoEquipoE" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_productoTerminado" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.fk_Productoven" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.productoUnionmateriaprima" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.productoUnionPedido" ManuallyRouted="false" />
+        <AssociationConnector Association="picachosModel.productoUnionventa" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

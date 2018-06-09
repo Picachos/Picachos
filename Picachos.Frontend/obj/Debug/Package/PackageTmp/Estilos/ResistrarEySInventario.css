@@ -1,0 +1,144 @@
+﻿* {
+    margin:0;
+    padding:0;   
+    box-sizing:border-box;
+    font-family:Cambria; 
+}
+
+.sectImgFondo {
+    position: absolute;
+    width: 54%;
+    height: 65%; 
+    top: 30%; 
+    left: 28%;  
+}
+
+.imgFondoRegEySInv{
+    position: absolute;
+    width: 100%;
+    height: 100%;  
+}
+
+.sectContenedor{
+    position:absolute;
+    width:60%;
+    height:55%;
+    top:40%;
+    margin-top:auto;
+    left:28%; 
+}
+
+#sectContene{
+    position:absolute;
+    width:40%;
+    height:50%; 
+    top:15%;
+    margin-top:auto;
+    right:15%;
+    box-sizing:border-box;
+    overflow:scroll;
+   
+}
+
+
+.ddlEoSInv {
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    width:20%;
+    height:10%;
+    padding:0;
+    font-size:17px;
+}
+
+.ddlRegEySInv{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    width:35%;
+    height:10%;
+    padding:0;
+    font-size:17px;
+} 
+
+.btnConCat{
+     position:absolute;
+     top:4%;
+     left:50%;
+     background-color:#10023e;
+     color:white;
+     width:25%;
+}
+
+.labNombreMP{
+    position:absolute;
+    top: 21%;
+    left: 5%;
+    font-size: 17px;
+    color: #34236d;
+}
+
+.txbNombreMP {
+      position:absolute;
+      top:37%;
+      left:5%;     
+      font-size:17px;
+      width: 37%;
+      height:8%;
+}
+
+.reqFVNombreMP{
+    position:absolute;
+    top:20%;
+    left:5%;     
+    font-size:17px;
+    color:red;
+}
+
+.labDesc {
+     position:absolute;
+      top:41%;
+      left:5%;
+      font-size:17px;
+      color:#34236d;
+   
+}
+
+.txbDesc{
+    position: absolute;
+    top:49%;
+    left:5%;
+    font-size:17px;
+    width: 35%;
+    height:15%;
+}
+
+.spin{
+    position: absolute;
+    top:28%;
+    left:43%;
+    font-size:17px;
+    width: 9.5%;
+    height:10%;
+    padding-left:5px;
+}
+
+
+
+.btnGuardar{
+     position:absolute;
+     top:76%;
+     left:50%;
+     background-color:#10023e;
+     color:white;
+     width:10%;
+}
+
+.btnLimpiar{
+     position:absolute;
+     top:76%;
+     left:32%;
+     background-color:#10023e;
+     color:white;
+     width:10%;
+}

@@ -1,0 +1,24 @@
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\obj\Release\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\obj\Release\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\obj\Release\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\obj\Release\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\obj\Release\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\obj\Release\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\obj\Release\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\obj\Release\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\obj\Release\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\obj\Release\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\obj\Release\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\obj\Release\Picachos.Frontend.dll

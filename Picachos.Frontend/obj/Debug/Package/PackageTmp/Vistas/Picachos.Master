@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Picachos.master.cs" Inherits="Picachos.Frontend.Vistas.Picachos" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Se agregan datos de encabezado titulo , hojas de diseño css, script utilizados-->
+<head runat="server">
+    <title>Picachos</title>
+
+    <link href="../Imagenes/pino.png" rel='shortcut icon' type='image/x-icon'/>  
+    <link href="../Estilos/Master.css" rel="stylesheet" type="text/css" />
+   
+    <asp:ContentPlaceHolder ID="contPHMaster" runat="server">
+    
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<!--Se agrega el cuerpo a la pagina que contendra las imagenes de cabecera, un menu con direccionamiento a otras paginas que
+    utilizen esta plantilla o "master page", al igual que una imagen de pie de pagina-->
+<body>
+    <!-- se inicia con un formulario que utilizaran todas las paginas-->
+     <form  runat="server">
+        <section id="sectContenedor">
+           <header>
+              <asp:Image  ImageUrl="~/Imagenes/cabecera8.png" runat="server" id="imgCabecera" OnDataBinding="cerrarSesion" />
+              <asp:Label  ID="labUsuario"       runat="server"></asp:Label>              
+              <asp:Label  ID="labUsuarioID"     runat="server"></asp:Label> 
+              <asp:Label  ID="labRol"           runat="server"></asp:Label>               
+              <asp:Button AccessKey="S" ID="btnCeSesion" runat="server" Text="[ Cerrar sesión ]" CausesValidation="false" OnClick="cerrarSesion"/>                                
+           </header>  
+
+           <section class="sectMenPripal">
+                     
+             <nav>
+                  <ul>
+                      <li><asp:Image ImageUrl="~/Imagenes/usuarios.png" ID="imgMenuUsua" Cssclass="iconosRedondos" runat="server" />                        
+                             <ul>
+                                <li><asp:HyperLink AccessKey="1" NavigateUrl="~/Vistas/Usuarios/RegistrarUsuarios.aspx" ID="hyperRegistrar" runat="server">Registrar</asp:HyperLink></li>
+                                <li><asp:HyperLink AccessKey="2" NavigateUrl="~/Vistas/Usuarios/ConsultarUsuarios.aspx" ID="hyperConsultar" runat="server">Consultar</asp:HyperLink></li>                                                                                      
+                             </ul>
+                      </li>
+                      <li> <asp:Image ImageUrl="~/Imagenes/inventario.png"  ID="imgMenInv" Cssclass="iconosRedondos" runat="server" />
+                             <ul>
+                                <li><asp:HyperLink AccessKey="3" NavigateUrl="~/Vistas/Inventario/RegistraInventario.aspx" ID="HyperRegInv" runat="server">Registrar</asp:HyperLink></li>
+                                <li><asp:HyperLink AccessKey="4" NavigateUrl="~/Vistas/Inventario/RegistrarEntradaInventario.aspx" ID="HyperRegEntInv" runat="server">Almacen</asp:HyperLink></li>                                             
+                                <li><asp:HyperLink AccessKey="5" NavigateUrl="~/Vistas/Inventario/RegistrarSalidaInventario.aspx" ID="HyperRegSalInv" runat="server">Reportes</asp:HyperLink></li>                                             
+                                <li><asp:HyperLink AccessKey="6" NavigateUrl="~/Vistas/Inventario/CosultarInventario.aspx" ID="HyperConsInv" runat="server">Consultas</asp:HyperLink></li>         
+                             </ul>
+                      </li>
+                      <li><asp:Image ImageUrl="~/Imagenes/item.png"  ID="img" Cssclass="iconosRedondos" runat="server" /> 
+                              <ul>
+                                 <li><a href="#">Editar 2</a></li>                                             
+                              </ul>
+                      </li>                      
+                  </ul>
+             </nav>           
+         </section> <!--menuPrincipal-->
+
+        <footer id="piePagina">
+            
+       </footer>
+     </section><!-- Contenedor mas-->
+    
+     <!-- Seccion para cargar paginas que utilizan la pagina principal o "master"-->
+     <section>
+        <asp:ContentPlaceHolder ID="contPHPrin" runat="server">   
+             <!--Consultar Vistas/Default.aspx -->
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="contPHRegiUsua" runat="server">  
+             <!--Consultar Vistas/Registrar_Usuarios.aspx -->       
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="contPHConsUsua" runat="server">  
+            <!--Consultar Vistas/Consultar_Usuarios.aspx -->               
+        </asp:ContentPlaceHolder> 
+        <asp:ContentPlaceHolder ID="contPHRegiInv" runat="server">  
+            <!--Consultar Vistas/RegistrarInventario.aspx -->               
+        </asp:ContentPlaceHolder>  
+        <asp:ContentPlaceHolder ID="contPHEnYSaInv" runat="server">  
+            <!--Consultar Vistas/RegistrarEntradaInv.aspx -->               
+        </asp:ContentPlaceHolder>         
+        <asp:ContentPlaceHolder ID="contPHRegSalInv" runat="server">  
+            <!--Consultar Vistas/RegistrarSalidaInv.aspx -->               
+        </asp:ContentPlaceHolder>  
+         <asp:ContentPlaceHolder ID="contPHConsInv" runat="server">  
+            <!--Consultar Vistas/ConsultarInventario.aspx -->               
+        </asp:ContentPlaceHolder>  
+     </section><!-- cierre seccion para cargar paginas que utilizan la pagina principal o "master"-->
+
+
+    </form> <!--formulario--> 
+   
+
+</body>
+</html>

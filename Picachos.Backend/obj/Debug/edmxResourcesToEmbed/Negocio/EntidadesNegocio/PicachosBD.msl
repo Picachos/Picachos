@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="picachosModelStoreContainer" CdmEntityContainer="PicachosEntidades">
+    <EntitySetMapping Name="agenda">
+      <EntityTypeMapping TypeName="picachosModel.agenda">
+        <MappingFragment StoreEntitySet="agenda">
+          <ScalarProperty Name="agendaID" ColumnName="agendaID" />
+          <ScalarProperty Name="fechaEntrega" ColumnName="fechaEntrega" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cliente">
+      <EntityTypeMapping TypeName="picachosModel.cliente">
+        <MappingFragment StoreEntitySet="cliente">
+          <ScalarProperty Name="clienteID" ColumnName="clienteID" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="rfc" ColumnName="rfc" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="convenio">
+      <EntityTypeMapping TypeName="picachosModel.convenio">
+        <MappingFragment StoreEntitySet="convenio">
+          <ScalarProperty Name="convenioID" ColumnName="convenioID" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="formato" ColumnName="formato" />
+          <ScalarProperty Name="fk_ClienteIDcon" ColumnName="fk_ClienteIDcon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="corteDeDia">
+      <EntityTypeMapping TypeName="picachosModel.corteDeDia">
+        <MappingFragment StoreEntitySet="corteDeDia">
+          <ScalarProperty Name="corteID" ColumnName="corteID" />
+          <ScalarProperty Name="ventaID" ColumnName="ventaID" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="lecturaInicial" ColumnName="lecturaInicial" />
+          <ScalarProperty Name="lecturaFinal" ColumnName="lecturaFinal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="deuda">
+      <EntityTypeMapping TypeName="picachosModel.deuda">
+        <MappingFragment StoreEntitySet="deuda">
+          <ScalarProperty Name="deudaID" ColumnName="deudaID" />
+          <ScalarProperty Name="sumatoriatotal" ColumnName="sumatoriatotal" />
+          <ScalarProperty Name="montotal" ColumnName="montotal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="entradasalidaMateriaprima">
+      <EntityTypeMapping TypeName="picachosModel.entradasalidaMateriaprima">
+        <MappingFragment StoreEntitySet="entradasalidaMateriaprima">
+          <ScalarProperty Name="EntSalID" ColumnName="EntSalID" />
+          <ScalarProperty Name="materiaPrimaID" ColumnName="materiaPrimaID" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="cantidadES" ColumnName="cantidadES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="equipo">
+      <EntityTypeMapping TypeName="picachosModel.equipo">
+        <MappingFragment StoreEntitySet="equipo">
+          <ScalarProperty Name="equipoID" ColumnName="equipoID" />
+          <ScalarProperty Name="prestamoEquipoID" ColumnName="prestamoEquipoID" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="ultimaFechaDeMantenimiento" ColumnName="ultimaFechaDeMantenimiento" />
+          <ScalarProperty Name="estatus" ColumnName="estatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="materiaPrima">
+      <EntityTypeMapping TypeName="picachosModel.materiaPrima">
+        <MappingFragment StoreEntitySet="materiaPrima">
+          <ScalarProperty Name="materiaPrimaID" ColumnName="materiaPrimaID" />
+          <ScalarProperty Name="productoID" ColumnName="productoID" />
+          <ScalarProperty Name="nombreMateria" ColumnName="nombreMateria" />
+          <ScalarProperty Name="existencia" ColumnName="existencia" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="notaDeVenta">
+      <EntityTypeMapping TypeName="picachosModel.notaDeVenta">
+        <MappingFragment StoreEntitySet="notaDeVenta">
+          <ScalarProperty Name="notaDeVentaID" ColumnName="notaDeVentaID" />
+          <ScalarProperty Name="deudaID" ColumnName="deudaID" />
+          <ScalarProperty Name="agendaID" ColumnName="agendaID" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pago">
+      <EntityTypeMapping TypeName="picachosModel.pago">
+        <MappingFragment StoreEntitySet="pago">
+          <ScalarProperty Name="pagoID" ColumnName="pagoID" />
+          <ScalarProperty Name="corteID" ColumnName="corteID" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="monto" ColumnName="monto" />
+          <ScalarProperty Name="deudaID" ColumnName="deudaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pedido">
+      <EntityTypeMapping TypeName="picachosModel.pedido">
+        <MappingFragment StoreEntitySet="pedido">
+          <ScalarProperty Name="pedidoID" ColumnName="pedidoID" />
+          <ScalarProperty Name="fechaDeEntrega" ColumnName="fechaDeEntrega" />
+          <ScalarProperty Name="clienteID" ColumnName="clienteID" />
+          <ScalarProperty Name="agendaID" ColumnName="agendaID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="prestamoEquipo">
+      <EntityTypeMapping TypeName="picachosModel.prestamoEquipo">
+        <MappingFragment StoreEntitySet="prestamoEquipo">
+          <ScalarProperty Name="prestamoEquipoID" ColumnName="prestamoEquipoID" />
+          <ScalarProperty Name="clienteID" ColumnName="clienteID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productoTerminado">
+      <EntityTypeMapping TypeName="picachosModel.productoTerminado">
+        <MappingFragment StoreEntitySet="productoTerminado">
+          <ScalarProperty Name="productoID" ColumnName="productoID" />
+          <ScalarProperty Name="ventaID" ColumnName="ventaID" />
+          <ScalarProperty Name="pedidoID" ColumnName="pedidoID" />
+          <ScalarProperty Name="nombreProducto" ColumnName="nombreProducto" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="existencia" ColumnName="existencia" />
+          <ScalarProperty Name="materiales" ColumnName="materiales" />
+          <ScalarProperty Name="descripcionProducto" ColumnName="descripcionProducto" />
+          <ScalarProperty Name="venta" ColumnName="venta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productoTerminadoES">
+      <EntityTypeMapping TypeName="picachosModel.productoTerminadoES">
+        <MappingFragment StoreEntitySet="productoTerminadoES">
+          <ScalarProperty Name="PDEntSalID" ColumnName="PDEntSalID" />
+          <ScalarProperty Name="productoID" ColumnName="productoID" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="fechaES" ColumnName="fechaES" />
+          <ScalarProperty Name="cantidadES" ColumnName="cantidadES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="salidaDeEfectivo">
+      <EntityTypeMapping TypeName="picachosModel.salidaDeEfectivo">
+        <MappingFragment StoreEntitySet="salidaDeEfectivo">
+          <ScalarProperty Name="salidaID" ColumnName="salidaID" />
+          <ScalarProperty Name="corteID" ColumnName="corteID" />
+          <ScalarProperty Name="monto" ColumnName="monto" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario">
+      <EntityTypeMapping TypeName="picachosModel.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="usuarioID" ColumnName="usuarioID" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="nombreUsuario" ColumnName="nombreUsuario" />
+          <ScalarProperty Name="contrasena" ColumnName="contrasena" />
+          <ScalarProperty Name="rol" ColumnName="rol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="venta">
+      <EntityTypeMapping TypeName="picachosModel.venta">
+        <MappingFragment StoreEntitySet="venta">
+          <ScalarProperty Name="ventaID" ColumnName="ventaID" />
+          <ScalarProperty Name="productoId" ColumnName="productoId" />
+          <ScalarProperty Name="clienteID" ColumnName="clienteID" />
+          <ScalarProperty Name="venta1" ColumnName="venta" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="productoUnionmateriaprima" TypeName="picachosModel.productoUnionmateriaprima" StoreEntitySet="productoUnionmateriaprima">
+      <EndProperty Name="materiaPrima">
+        <ScalarProperty Name="materiaPrimaID" ColumnName="matPrimaID" />
+      </EndProperty>
+      <EndProperty Name="productoTerminado">
+        <ScalarProperty Name="productoID" ColumnName="prodTerID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="productoUnionPedido" TypeName="picachosModel.productoUnionPedido" StoreEntitySet="productoUnionPedido">
+      <EndProperty Name="pedido">
+        <ScalarProperty Name="pedidoID" ColumnName="pedID" />
+      </EndProperty>
+      <EndProperty Name="productoTerminado">
+        <ScalarProperty Name="productoID" ColumnName="prodTerID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="productoUnionventa" TypeName="picachosModel.productoUnionventa" StoreEntitySet="productoUnionventa">
+      <EndProperty Name="productoTerminado">
+        <ScalarProperty Name="productoID" ColumnName="prodTerID" />
+      </EndProperty>
+      <EndProperty Name="venta">
+        <ScalarProperty Name="ventaID" ColumnName="ventID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
