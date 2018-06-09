@@ -28,7 +28,7 @@ namespace Picachos.Frontend.Vistas.Usuarios
                 }//cierra if
                 else
                 {
-                    Response.Redirect("Login.aspx");
+                    Response.Redirect("/Vistas/Login/Login.aspx");
                 }//cierra else
             }//cierra if
         }//cierra pageload

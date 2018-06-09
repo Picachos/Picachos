@@ -2,6 +2,7 @@
 /*Ultima modificación:  08/06/2018*/
 
 /*librerias que se utilizaran */
+
 using Picachos.Backend.Negocio.EntidadesNegocio;
 using System;
 using System.Collections.Generic;
@@ -120,7 +121,7 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         }/*cierra metodo ActualizarCliente*/
 
         /*Metodo para listar la Tabla de Cliente*/
-        public List<cliente> getTablaUsuario()
+        public List<cliente> getTablaCliente()
         {/*abre listado de usuarios*/
             using (var en = new PicachosEntidades())
             {/*abre using*/
@@ -156,33 +157,71 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         #endregion
 
         #region Metodos Validaciones
-
-
-        public String ValidarRFC(String rfc)
+        public Boolean ValidacionRepcliente(String nombre, int clienteID)
         {
-            if (rfc.Length>=13) // si rfc mayor a 13
+            using (var en = new PicachosEntidades())
             {
-                return "RFC invalido"; // mensaje de retorno
+                var numeroclientes = (from datos in en.cliente
+                                      where datos.nombre.Equals(nombre, StringComparison.Ordinal)
+                                      where datos.clienteID != clienteID
+                                      select datos).Count();
+
+                if (numeroclientes >= 1) // si el numero de usuario encontrados es mayor a uno.
+                {
+                    return false; // regresa valor verdadero; exitosa la busqueda.
+                }
+                else // en caso de no se mayor a uno.
+                {
+                    return true; // regresa falso; no se contraron usuarios con el nombre ingresado.
+                }//fin else
+            }//fin using
+        }//fin ValidacionRepCliente
+        public bool ValidarRFC(String rfc)
+        {
+            if (rfc.Length<=13) // si rfc mayor a 13
+            {
+                return true;// "RFC invalido"; // mensaje de retorno
             }
            
             else // si no cumple
             {
-                return "RFC valido";// mensaje de retorno
+                return false;// "RFC valido";// mensaje de retorno
             }
         }
 
-        public String ValidarTel(String tel)
+        public bool ValidarTel(String tel)
         {
             if (tel.Length!=10) // si rfc mayor a 13
             {
-                return "Telefono invalido"; // mensaje de retorno
+                return true;// "Telefono invalido"; // mensaje de retorno
             }
 
             else // si no cumple
             {
-                return "Telefono valido";// mensaje de retorno
+                return false;// "Telefono valido";// mensaje de retorno
             }
         }
+
+        public String ValidarCampos(cliente Cliente)
+        {
+            if (ValidarTel(Cliente.telefono)) // Se manda llamar al método 
+            {
+                return "Debe contener 10 digitos"; // formato valido , mensaje de retorno
+            }
+            else // si no cumple
+            {
+                return "OK";// mensaje de retorno
+            }//<asp:ListItem>Administrador</asp:ListItem>
+            if (ValidarRFC(Cliente.rfc)) // Se manda llamar al método 
+            {
+                return "Debe contener 12 o 13 caracteres"; // formato valido , mensaje de retorno
+            }
+            else // si no cumple
+            {
+                return "OK";// mensaje de retorno
+            }//<asp:ListItem>Administrador</asp:ListItem>
+        }
+
 
         public Boolean ValidarSesion(String nombreUsuario, String contrasena)
         {
