@@ -35,6 +35,7 @@ namespace Picachos.Frontend.Vistas.Clientes
 
         protected void GuardarCliente(object sender, EventArgs e)
         {
+			ReglasNegocioCliente client = new ReglasNegocioCliente();//instanciar desde reglas de negocio
             /*Vista y validacion para guardar cliente*/
             if (IsPostBack && Page.IsValid)
             {
@@ -48,6 +49,9 @@ namespace Picachos.Frontend.Vistas.Clientes
                 }
                 else
                 {
+					 //Validaciones
+                    string checkrfc = txbRFC.Text;
+                    string checktelefono = txbTelefono.Text;
                     var Cliente = new cliente 
                     {
                        nombre = txbRazonSocial.Text,
@@ -57,11 +61,29 @@ namespace Picachos.Frontend.Vistas.Clientes
                        telefono= txbTelefono.Text,
                     
                     };
-                    ReglasNegocioCliente.GetInstancia().AgregarCliente(Cliente);
+                   
+                    if (client.ValidarTel(checktelefono)==true||client.ValidarRFC(checkrfc)==true) {
+                        mensaje = "Cantidad de caracteres o digitos, incorrectos";
+                        MessageBox.Show(mensaje, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                        txbRazonSocial.Text = "";
+                        txbRFC.Text = "";
+                        TextDireccion.Text = "";
+                        txbObservacion.Text = "";
+                        txbTelefono.Text = "";
 
-                    mensaje = "Cliente registrado";
-                    MessageBox.Show(mensaje, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                    } else {
+                        ReglasNegocioCliente.GetInstancia().AgregarCliente(Cliente);
 
+                        mensaje = "Cliente registrado";
+                        MessageBox.Show(mensaje, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+
+                        txbRazonSocial.Text = "";
+                        txbRFC.Text = "";
+                        TextDireccion.Text = "";
+                        txbObservacion.Text = "";
+                        txbTelefono.Text = "";
+
+                    }
                     txbRazonSocial.Text = "";
                     txbRFC.Text = "";
                     TextDireccion.Text = "";

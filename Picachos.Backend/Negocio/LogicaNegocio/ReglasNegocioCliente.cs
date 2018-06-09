@@ -158,31 +158,32 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         #region Metodos Validaciones
 
 
-        public String ValidarRFC(String rfc)
+       public bool ValidarRFC(String rfc)
         {
-            if (rfc.Length>=13) // si rfc mayor a 13
+            if (rfc.Length <= 12) // si rfc mayor a 13
             {
-                return "RFC invalido"; // mensaje de retorno
+                return true;//"RFC invalido"; // mensaje de retorno
             }
            
             else // si no cumple
             {
-                return "RFC valido";// mensaje de retorno
+                return false;//"RFC valido";// mensaje de retorno
             }
         }
 
-        public String ValidarTel(String tel)
+        public bool ValidarTel(String tel)
         {
-            if (tel.Length!=10) // si rfc mayor a 13
+            if (tel.Length <= 9) // si telefono es mayor a 10
             {
-                return "Telefono invalido"; // mensaje de retorno
+                return true;//"Telefono invalido"; // mensaje de retorno
             }
 
             else // si no cumple
             {
-                return "Telefono valido";// mensaje de retorno
+                return false;//"Telefono valido";// mensaje de retorno
             }
         }
+
 
         public Boolean ValidarSesion(String nombreUsuario, String contrasena)
         {
