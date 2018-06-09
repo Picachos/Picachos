@@ -182,7 +182,6 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
             {
                 return true;// "RFC invalido"; // mensaje de retorno
             }
-           
 
             else // si no cumple
             {
@@ -192,7 +191,6 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
 
         public bool ValidarTel(String tel)
         {
-            if (tel.Length!=10) // si rfc mayor a 13
             if (tel.Length <= 9) // si telefono es mayor a 10
             {
                 return true;// "Telefono invalido"; // mensaje de retorno
@@ -206,7 +204,6 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
 
         public String ValidarCampos(cliente Cliente)
         {
-            if (ValidarTel(Cliente.telefono)) // Se manda llamar al método 
             if (ValidarTel(Cliente.telefono)) // Se manda llamar al método
             {
                 return "Debe contener 10 digitos"; // formato valido , mensaje de retorno
@@ -215,7 +212,6 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
             {
                 return "OK";// mensaje de retorno
             }//<asp:ListItem>Administrador</asp:ListItem>
-            if (ValidarRFC(Cliente.rfc)) // Se manda llamar al método 
             if (ValidarRFC(Cliente.rfc)) // Se manda llamar al método
             {
                 return "Debe contener 12 o 13 caracteres"; // formato valido , mensaje de retorno
