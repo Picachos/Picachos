@@ -118,6 +118,7 @@
     <Compile Include="Negocio\EntidadesNegocio\venta.cs">
       <DependentUpon>PicachosBD.tt</DependentUpon>
     </Compile>
+    <Compile Include="Negocio\LogicaNegocio\ReglasNegocioCliente.cs" />
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioEntradaSalidaMP.cs" />
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioMateriaPrima.cs" />
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioProductosTerminados.cs" />

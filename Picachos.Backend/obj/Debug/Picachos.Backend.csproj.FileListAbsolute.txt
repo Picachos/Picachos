@@ -232,3 +232,11 @@ C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety
 C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\bin\Debug\EntityFramework.dll
 C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\bin\Debug\EntityFramework.xml
 C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
