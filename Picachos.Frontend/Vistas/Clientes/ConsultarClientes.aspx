@@ -4,12 +4,12 @@
 <asp:Content ID="contConsClie" ContentPlaceHolderID="contPHConsC" runat="server">
     <link  href="../../Estilos/ConsultarClientes.css" rel="stylesheet" type="text/css" />
     
-     <section class="sectImg">
+     <section id="sectImg">
               <asp:Image ID="imgFondo" CssClass="imgFondo"  runat="server" ImageUrl="~/Imagenes/cons-clientes.png"  />
      </section>
       
      <%--Contenedor donde se presentara la informacion para registro de cliente, con validaciones y mensajes de error --%>
-     <section class="sectContene">       
+     <section id="sectContene">       
           <%--AQUI VA EL CODIGO--%>
           <asp:GridView ID="vgridClientes" runat="server" AutoGenerateColumns="False" GridLines="None" 
                OnRowCancelingEdit="CFCliente"
@@ -71,7 +71,7 @@
                 </asp:TemplateField>
 
                 <%--Quinta columna(Direccion) de la tabla Clientes --%>
-                <asp:TemplateField HeaderText="Direccion" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="100px">
+                <asp:TemplateField HeaderText="Dirección" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="100px">
                     <ItemTemplate>
                         <asp:Label ID="labDir" runat="server" Text='<% # Bind("direccion") %>'></asp:Label> 
                     </ItemTemplate>
@@ -82,7 +82,7 @@
                 </asp:TemplateField>
 
                    <%--Sexta columna(Telefono) de la tabla Clientes --%>
-                <asp:TemplateField HeaderText="Telefono" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="100px">
+                <asp:TemplateField HeaderText="Teléfono" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="100px">
                     <ItemTemplate>
                         <asp:Label ID="labTel" runat="server" Text='<% # Bind("telefono") %>'></asp:Label> 
                     </ItemTemplate>
