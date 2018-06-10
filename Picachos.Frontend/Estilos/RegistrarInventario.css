@@ -42,8 +42,10 @@
       top:14%;
       left:5%;     
       font-size:17px;
-      width: 37%;
-      height:8%;
+      color: #34236d; 
+      background:none;
+      border:none;
+      border-bottom:1px solid #10023e;
 }
 
 .reqFVNombreMP{
