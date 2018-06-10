@@ -212,7 +212,7 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
             {
                 return "OK";// mensaje de retorno
             }//<asp:ListItem>Administrador</asp:ListItem>
-            if (ValidarRFC(Cliente.rfc)) // Se manda llamar al método
+            if(ValidarRFC(Cliente.rfc)) // Se manda llamar al método
             {
                 return "Debe contener 12 o 13 caracteres"; // formato valido , mensaje de retorno
             }

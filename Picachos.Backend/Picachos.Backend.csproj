@@ -123,6 +123,7 @@
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioMateriaPrima.cs" />
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioProductosTerminados.cs" />
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioUsuario.cs" />
+    <Compile Include="Negocio\LogicaNegocio\ReglasNegocioVentas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

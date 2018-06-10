@@ -21,8 +21,8 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 0px;
-    left: 0px;
+    top: 2px;
+    left: 3px;
 }
 
 /*se agraga una divicion que contendra el formulario */
@@ -33,6 +33,18 @@
     top:30%;
     margin-top:auto;
     left:28%;   
+}
+
+.sectContenedorRows{
+    position:absolute;
+    width:643px;
+    height:42%;
+    top:174px;
+    margin-top:auto;
+    left:6%; 
+    border:1px solid gray;
+    box-sizing:border-box;
+    overflow:scroll;  
 }
 
 .labTipoHyA {
@@ -107,13 +119,14 @@
     color: #34236d;
 }
 
-.txbRazon{
+.ddlRegVenta{
     position: absolute;
-    top: 15%;
+    top: 63px;
     left: 35%;
-    font-size:13px;
-    width: 28%;
+    width:35%;
     height:25px;
+    padding:0;
+    font-size:17px;
 } 
 
 .txbDom{
@@ -121,7 +134,7 @@
     top: 90px;
     left: 35%;
     font-size:13px;
-    width: 28%;
+    width: 50%;
     height:25px;
 } 
 
@@ -130,6 +143,713 @@
     top: 118px;
     left: 35%;
     font-size:13px;
-    width: 28%;
+    width: 50%;
     height:25px;
 } 
+
+.txbCant{
+    position: absolute;
+    top: 150px;
+    left: 6%;
+    font-size:13px;
+    width: 9%;
+    height:25px;
+    text-align:center;
+    background:#141f5f;
+    color:white;
+    border-right:1px solid white;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: inherit;
+    border-bottom-width: medium;
+} 
+.txbConcepto{
+    position: absolute;
+    top: 150px;
+    left: 13%;
+    font-size:13px;
+    width: 62%;
+    height:25px;
+    text-align:center;
+    background:#141f5f;
+    color:white;
+    border-right:1px solid white;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: inherit;
+    border-bottom-width: medium;
+} 
+.txbPrecio{
+    position: absolute;
+    top: 150px;
+    left: 58%;
+    font-size:13px;
+    width: 12%;
+    height:25px;
+    text-align:center;
+    background:#141f5f;
+    color:white;
+    border:none;
+    border-right:1px solid white;
+} 
+.txbImporte{
+    position: absolute;
+    top: 150px;
+    left: 70%;
+    font-size:13px;
+    width: 125px;
+    height:25px;
+    text-align:center;
+    background:#141f5f;
+    color:white;
+    border:none;
+}
+
+
+.txbCantCero{
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+.ddlConceptoCero{
+    position: absolute;
+    top: 0px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioCero{
+    position: absolute;
+    top: 0px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+}
+
+.txbImporteCero{
+    position: absolute;
+    top: 0px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+}
+
+
+ 
+
+.txbCantUno{
+    position: absolute;
+    top: 24px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+.ddlConceptoUno{
+    position: absolute;
+    top: 24px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioUno{
+    position: absolute;
+    top: 24px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+}
+
+ 
+
+.txbImporteUno{
+    position: absolute;
+    top: 24px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+}
+
+.txbCantDos{
+    position: absolute;
+    top: 49px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+.ddlConceptoDos{
+    position: absolute;
+    top: 49px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioDos{
+    position: absolute;
+    top: 49px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.txbImporteDos{
+    position: absolute;
+    top: 49px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+}
+
+.txbCantTres{
+    position: absolute;
+    top: 74px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+.ddlConceptoTres{
+    position: absolute;
+    top: 74px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioTres{
+    position: absolute;
+    top: 74px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.txbImporteTres{
+    position: absolute;
+    top: 74px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+}
+
+.txbCantCuatro{
+    position: absolute;
+    top: 99px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+.ddlConceptoCuatro{
+    position: absolute;
+    top: 99px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioCuatro{
+    position: absolute;
+    top: 99px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.txbImporteCuatro{
+    position: absolute;
+    top: 99px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+
+
+.txbCantCinco{
+    position: absolute;
+    top: 124px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+.ddlConceptoCinco{
+    position: absolute;
+    top: 124px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioCinco{
+    position: absolute;
+    top: 124px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.txbImporteCinco{
+    position: absolute;
+    top: 124px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+
+
+
+.txbCantSeis{
+    position: absolute;
+    top: 149px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+.ddlConceptoSeis{
+    position: absolute;
+    top: 149px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioSeis{
+    position: absolute;
+    top: 149px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.txbImporteSeis{
+    position: absolute;
+    top: 149px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+
+
+.txbCantSiete{
+    position: absolute;
+    top: 174px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+.ddlConceptoSiete{
+    position: absolute;
+    top: 174px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioSiete{
+    position: absolute;
+    top: 174px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.txbImporteSiete{
+    position: absolute;
+    top: 174px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+
+.txbCantOcho{
+    position: absolute;
+    top: 199px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.ddlConceptoOcho{
+    position: absolute;
+    top: 199px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioOcho{
+    position: absolute;
+    top: 199px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.txbImporteOcho{
+    position: absolute;
+    top: 199px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+
+.txbCantNueve{
+    position: absolute;
+    top: 224px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.ddlConceptoNueve{
+    position: absolute;
+    top: 224px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioNueve{
+    position: absolute;
+    top: 224px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.txbImporteNueve{
+    position: absolute;
+    top: 224px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+
+.txbCantDiez{
+    position: absolute;
+    top: 249px;
+    left: 0%;
+    font-size:13px;
+    width: 56px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+.ddlConceptoDiez{
+    position: absolute;
+    top: 249px;
+    left: 56px;
+    font-size:13px;
+    width: 364px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+.txbPrecioDiez{
+    position: absolute;
+    top: 249px;
+    left: 420px;
+    font-size:13px;
+    width: 97px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+} 
+
+.txbImporteDiez{
+    position: absolute;
+    top: 249px;
+    left: 518px;
+    font-size:13px;
+    width: 105px;
+    height:25px;
+    text-align:center;
+    border:1px solid gray;
+    border-left:none;
+    border-bottom:none;
+    border-right:none;
+} 
+
+.labTotal {
+    position:absolute;
+    top: 85%;
+    left: 6%;
+    font-size: 25px;
+    color: #FA5858;
+}
+
+.labResultado {
+    position:absolute;
+    top: 85%;
+    left: 18%;
+    font-size: 25px;
+    color: #141f5f;
+}
+
+.btnGuardar {
+    position:absolute;
+    top: 86%;
+    left: 72%;
+    font-size: 17px;
+    border-radius:5px;
+    background-color:#FA5858;
+    color:white;
+    border:none;
+    width:110px;
+    height:30px;
+}
+
+.btnCancelar {
+    position:absolute;
+    top: 86%;
+    left: 58%;
+    font-size: 17px;
+    border-radius:5px; 
+    border:1px solid #FA5858;  
+    color:#FA5858;   
+    width:110px;
+    height:30px;
+    background:none;
+}
+
+.btnBuscar {
+    position:absolute;
+    top: 63px;
+    left: 71%;
+    font-size: 17px;
+    border-radius:5px;
+    background-color:#A4A4A4;
+    color:white;
+    border:none;
+    width:110px;
+    height:25px;
+}
