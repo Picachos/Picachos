@@ -178,7 +178,7 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         }//fin ValidacionRepCliente
         public bool ValidarRFC(String rfc)
         {
-            if (rfc.Length<=13) // si rfc mayor a 13
+            if (rfc.Length<=13) // si rfc menor a 13
             {
                 return true;// "RFC invalido"; // mensaje de retorno
             }
