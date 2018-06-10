@@ -47,8 +47,10 @@
       top:13%;
       left:6%;     
       font-size:17px;
-      width: 37%;
-      height:8%;
+      color: #34236d; 
+    background:none;
+    border:none;
+    border-bottom:1px solid #10023e;
 }
 
 .reqFVNombre {
@@ -73,8 +75,10 @@
     top:39.5%;
     left:6%;
     font-size:17px;
-    width: 28%;
-    height:8%;
+    color: #34236d; 
+    background:none;
+    border:none;
+    border-bottom:1px solid #10023e;
 }
 
 .reqFVNomUsua {
@@ -118,8 +122,10 @@
     top: 13%;
     left: 49%;
     font-size:17px;
-    width: 28%;
-    height:8%;
+    color: #34236d; 
+    background:none;
+    border:none;
+    border-bottom:1px solid #10023e;
 }  
 
 .reqFVContra {
@@ -144,8 +150,10 @@
     top: 39.5%;
     left: 49%;
     font-size:17px;
-    width: 28%;
-    height:8%;
+    color: #34236d; 
+    background:none;
+    border:none;
+    border-bottom:1px solid #10023e;
 } 
 
 .reqFVConfContr {
