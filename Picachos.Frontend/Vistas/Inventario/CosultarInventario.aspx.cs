@@ -57,8 +57,10 @@ namespace Picachos.Frontend.Vistas.Inventario
         {
             /*Borrado de inventario*/
             int materiaPrimaID = Convert.ToInt32(vgridInventario.DataKeys[e.RowIndex].Values[0]);
+            int productoID = Convert.ToInt32(vgridInventario.DataKeys[e.RowIndex].Values[0]);
+
             string mensaje = "!Materia Prima Eliminada!";
-           ReglasNegocioMateriaPrima.GetInstancia().EliminarInventario(materiaPrimaID);//recibe respuesta de borrar id que no sea el admin
+           ReglasNegocioMateriaPrima.GetInstancia().EliminarInventario(materiaPrimaID);
             System.Windows.Forms.MessageBox.Show(mensaje, "Información", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Information, System.Windows.Forms.MessageBoxDefaultButton.Button1, System.Windows.Forms.MessageBoxOptions.DefaultDesktopOnly);
             vgridInventario.EditIndex = -1;
             ExtDatTabMP();

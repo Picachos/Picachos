@@ -20,17 +20,17 @@
     position: absolute;
     width: 107%;
     height: 100%;
-    top: 4px;
-    left: 9px;
+    top: -21px;
+    left: 13px;
 }
 
 .sectContenedor{
     position:absolute;
     width:58%;
     height:58%;
-    top:35%;
+    top:37%;
     margin-top:auto;
-    left:30%;   
+    left:29%;   
 }
 
 .btnUnitario {
@@ -140,7 +140,20 @@
     border-radius:5px;
 }
 
-.btnAgregar{
+.btnAgregarUnitario{
+     font-size: 15px;
+     position:absolute;
+     top:33%;
+     left:50%;
+     background-color:transparent;
+     color:#10023e;
+     width:32%;
+     border:1px solid #10023e;
+     border-radius:5px;
+     height:2rem;
+     letter-spacing:4px;
+}
+.btnAgregarEmpaquetado{
      font-size: 15px;
      position:absolute;
      top:33%;
@@ -242,179 +255,35 @@
 }
 
 .txbSelecCuatro {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
     position:absolute;
-    top: 64%;
+    top: 56%;
     width:8rem;
-    left: 47%;
+    left: 48%;
     font-size: 17px;
     color: #34236d; 
-    border:none; 
     background-color:transparent;
 }
 
 .btnSelecCuatro {
-     position:absolute;
-     top:64%;
-     left:63%;
-     font-size:20px;
-     background-color:transparent;
-     color:#10023e;
-     width:2%;
-     border:none;
-     border-radius:2px;
-     font-family: 'Concert One', cursive;
-     font-weight:600;
-}
-
-.txbSelecCinco {
+     border-style: none;
+    border-color: inherit;
+    border-width: medium;
     position:absolute;
-    top:71%;
-    width:8rem;
-    left: 47%;
-    font-size: 17px;
-    color: #34236d; 
-    border:none; 
-    background-color:transparent;
-}
-
-.btnSelecCinco {
-     position:absolute;
-     top:71%;
-     left:63%;
-     font-size:20px;
-     background-color:transparent;
-     color:#10023e;
-     width:2%;
-     border:none;
-     border-radius:2px;
-     font-family: 'Concert One', cursive;
-     font-weight:600;
-}
-
-.txbSelecSeis {
-    position:absolute;
-    top: 43%;
-    width:8rem;
-    left: 67%;
-    font-size: 17px;
-    color: #34236d; 
-    border:none; 
-    background-color:transparent;
-}
-
-.btnSelecSeis {
-     position:absolute;
-     top:43%;
+     top:49%;
      left:83%;
      font-size:20px;
      background-color:transparent;
      color:#10023e;
-     width:2%;
-     border:none;
+     width:7%;
      border-radius:2px;
      font-family: 'Concert One', cursive;
      font-weight:600;
+    height: 42px;
 }
 
-.txbSelecSiete {
-    position:absolute;
-    top: 50%;
-    width:8rem;
-    left: 67%;
-    font-size: 17px;
-    color: #34236d; 
-    border:none; 
-    background-color:transparent;
-}
-
-.btnSelecSiete {
-     position:absolute;
-     top:50%;
-     left:83%;
-     font-size:20px;
-     background-color:transparent;
-     color:#10023e;
-     width:2%;
-     border:none;
-     border-radius:2px;
-     font-family: 'Concert One', cursive;
-     font-weight:600;
-}
-
-.txbSelecOcho {
-    position:absolute;
-    top: 57%;
-    width:8rem;
-    left: 67%;
-    font-size: 17px;
-    color: #34236d; 
-    border:none; 
-    background-color:transparent;
-}
-
-.btnSelecOcho {
-     position:absolute;
-     top:57%;
-     left:83%;
-     font-size:20px;
-     background-color:transparent;
-     color:#10023e;
-     width:2%;
-     border:none;
-     border-radius:2px;
-     font-family: 'Concert One', cursive;
-     font-weight:600;
-}
-
-.txbSelecNueve {
-    position:absolute;
-    top: 64%;
-    width:8rem;
-    left: 67%;
-    font-size: 17px;
-    color: #34236d; 
-    border:none; 
-    background-color:transparent;
-}
-
-.btnSelecNueve {
-     position:absolute;
-     top:64%;
-     left:83%;
-     font-size:20px;
-     background-color:transparent;
-     color:#10023e;
-     width:2%;
-     border:none;
-     border-radius:2px;
-     font-family: 'Concert One', cursive;
-     font-weight:600;
-}
-
-.txbSelecDiez {
-    position:absolute;
-    top: 71%;
-    width:8rem;
-    left: 67%;
-    font-size: 17px;
-    color: #34236d; 
-    border:none; 
-    background-color:transparent;
-}
-
-.btnSelecDiez {
-     position:absolute;
-     top:71%;
-     left:83%;
-     font-size:20px;
-     background-color:transparent;
-     color:#10023e;
-     width:2%;
-     border:none;
-     border-radius:2px;
-     font-family: 'Concert One', cursive;
-     font-weight:600;
-}
 
 .txbSelecEmp {
     border-style: none;
@@ -489,7 +358,22 @@
      font-weight:500;
 } 
 
-.btnGuardar{
+.btnGuardarUnitario{
+     border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    position:absolute;
+     top:83%;
+     left:83%;
+     height:26px;
+     background-color:#10023e;
+     color:white;
+     width:14%;
+     font-size:16px;
+     border-radius:5px;
+     font-weight:500;
+}
+.btnGuardarEmpaquetado{
      border-style: none;
     border-color: inherit;
     border-width: medium;

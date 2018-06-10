@@ -11,16 +11,17 @@
            <asp:Label ID="labNombrePT" CssClass="labNombrePT" runat="server" Text="Nombre del producto:"></asp:Label>       
            <asp:TextBox  ID="txbNombrePT" CssClass="txbNombrePT" runat="server" MaxLength="60" ToolTip="Ingresar nombre(s) descriptivo(s)"></asp:TextBox>
                                      
-           <asp:Label ID="labDesc" CssClass="labDesc" runat="server" Text="Descripción: "></asp:Label>
+           <asp:Label ID="labDesc" CssClass="labDesc" runat="server" Text="Descripcion: "></asp:Label>
            <asp:TextBox  ID="txbDesc" CssClass="txbDesc" runat="server" MaxLength="60" ToolTip="Ingresar descripcion" TextMode="MultiLine"></asp:TextBox>
       
            <asp:Label ID="labTipoProducto" CssClass="labTipoProducto" runat="server" Text="¿Tipo de producto?"></asp:Label>
            <asp:Button AccessKey="U" ID="btnUnitario" CssClass="btnUnitario" runat="server"  Text="Unitario" OnClick="esUnitario"/> 
+           <asp:Button AccessKey="E" ID="btnEmpaquetado" CssClass="btnEmpaquetado" runat="server"  Text="Empaquetado" OnClick="esEmpaquetado"/> 
            
            <asp:DropDownList CssClass="ddlRegRegPT" ID="ddlRegRegPT" runat="server"/>
 
-
-           <asp:Button AccessKey="A" ID="btnAgregar" CssClass="btnAgregar" runat="server"  Text="Agregar" OnClick="agregarLista"/>
+           <asp:Button AccessKey="A" ID="btnAgregarUnitario" CssClass="btnAgregarUnitario" runat="server"  Text="AgregarUni" OnClick="agregarListaUni"/>
+           <asp:Button AccessKey="L" ID="btnAgregarEmpaquetado" CssClass="btnAgregarEmpaquetado" runat="server"  Text="AgregarEmp" OnClick="agregarListaEmp"/>
 
            <asp:TextBox  ID="txbSelecUno" CssClass="txbSelecUno" Enabled="false" runat="server" ></asp:TextBox>
            <asp:Button  ID="btnSelecUno" CssClass="btnSelecUno" runat="server"  Text="x" OnClick="botonUno"/> 
@@ -30,14 +31,18 @@
           
            <asp:TextBox  ID="txbSelecTres" CssClass="txbSelecTres" Enabled="false" runat="server" ></asp:TextBox>
            <asp:Button  ID="btnSelecTres" CssClass="btnSelecTres" runat="server"  Text="x" OnClick="botonTres"/> 
-          
-           
+
+           <asp:TextBox  ID="txbSelecCuatro" CssClass="txbSelecCuatro" Enabled="false" runat="server" ></asp:TextBox>
+           <asp:Button  ID="btnSelecCuatro" CssClass="btnSelecCuatro" runat="server"  Text="x" OnClick="botonCuatro"/> 
+                 
            <asp:Label ID="labCantidad" CssClass="labCantidad" runat="server" Text="Cantidad: "></asp:Label>
            <asp:TextBox  ID="txbCant" CssClass="txbCant"  runat="server" MaxLength="10" ></asp:TextBox>
 
-           <asp:Button AccessKey="G" ID="btnGuardar" CssClass="btnGuardar" runat="server"  Text="Guardar"   />           
+           <asp:Button AccessKey="G" ID="btnGuardarUnitario" CssClass="btnGuardarUnitario" runat="server"  Text="GuardarUNI" OnClick="GuardarUnitario"   />   
+           <asp:Button AccessKey="S" ID="btnGuardarEmpaquetado" CssClass="btnGuardarEmpaquetado" runat="server"  Text="GuardarEMP" OnClick="GuardarEmpaquetado"  />         
            <asp:Button AccessKey="L" ID="btnLimpiar" CssClass="btnLimpiar" runat="server"  Text="Limpiar"  CausesValidation="false" OnClick="btnLimpiar_Click" />
            
+
       </section>
 </asp:Content>
 

@@ -13,7 +13,7 @@
            <asp:RequiredFieldValidator CssClass="reqFVNombreMP" ID="reqFVNombreMP" runat="server" ControlToValidate="txbNombreMP" ErrorMessage="Favor de ingresar nombre de materia prima"></asp:RequiredFieldValidator>
 
            
-           <asp:Label ID="labDesc" CssClass="labDesc" runat="server" Text="Descripción: "></asp:Label>
+           <asp:Label ID="labDesc" CssClass="labDesc" runat="server" Text="Descripcion: "></asp:Label>
            <asp:TextBox  ID="txbDesc" CssClass="txbDesc" runat="server" MaxLength="60" ToolTip="Ingresar descripcion" TextMode="MultiLine"></asp:TextBox>
       
 

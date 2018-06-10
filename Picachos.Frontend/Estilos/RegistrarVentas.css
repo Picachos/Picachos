@@ -1,0 +1,135 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Concert+One');
+@import url('https://fonts.googleapis.com/css?family=Inder');
+* {
+    margin:0;
+    padding:0;   
+    box-sizing:border-box;
+    font-family: 'Inder', sans-serif;
+}
+
+/*se agrega la imagen de fondo para dar diseño al formulario*/
+.sectImgFondo {
+    position: absolute;
+    width: 54%;
+    height: 65%; 
+    top: 30%; 
+    left: 28%;
+   
+}
+
+.imgFondoReVenta {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+/*se agraga una divicion que contendra el formulario */
+.sectContenedor{
+    position:absolute;
+    width:60%;
+    height:65%;
+    top:30%;
+    margin-top:auto;
+    left:28%;   
+}
+
+.labTipoHyA {
+    position:absolute;
+    top: 15%;
+    left: 9%;
+    font-size: 14px;
+    color: #141f5f;
+}
+
+.labPICA {
+    position:absolute;
+    top: 70px;
+    left: 100px;
+    font-size: 30px;
+    color: #141f5f;
+}
+
+.labMontain {
+    position:absolute;
+    top: 98px;
+    left: 111px;
+    font-size: 13px;
+    color: #141f5f;
+}
+
+.labCarr {
+    position:absolute;
+    top: 117px;
+    left: 69px;
+    font-size: 12px;
+    color: #141f5f;
+}
+
+.labPobla {
+    position:absolute;
+    top: 127px;
+    left: 80px;
+    font-size: 12px;
+    color: #141f5f;
+}
+
+.labNdeVenta {
+    position:absolute;
+    top: 2%;
+    left: 62%;
+    font-size: 14px;
+    color: #FA5858;
+}
+
+.labNumNotaVe {
+    position:absolute;
+    top: 2%;
+    left: 600px;
+    font-size: 14px;
+    color: #34236d;
+}
+
+.labFecha {
+    position:absolute;
+    top: 6%;
+    left: 555px;
+    font-size: 14px;
+    color: #FA5858;
+}
+
+.labFechaSistema {
+    position:absolute;
+    top: 6%;
+    left: 600px;
+    font-size: 14px;
+    color: #34236d;
+}
+
+.txbRazon{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    font-size:13px;
+    width: 28%;
+    height:25px;
+} 
+
+.txbDom{
+    position: absolute;
+    top: 90px;
+    left: 35%;
+    font-size:13px;
+    width: 28%;
+    height:25px;
+} 
+
+.txbRFC{
+    position: absolute;
+    top: 118px;
+    left: 35%;
+    font-size:13px;
+    width: 28%;
+    height:25px;
+} 

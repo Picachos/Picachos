@@ -72,14 +72,15 @@
     <Content Include="Estilos\ConsultarInventario.css" />
     <Content Include="Estilos\ConsultarUsuarios.css" />
     <Content Include="Estilos\ConsultarProductosTerminados.css" />
-    <Content Include="Estilos\ConsultarClientes.css" />
     <Content Include="Estilos\fontello.css" />
     <Content Include="Estilos\Login.css" />
     <Content Include="Estilos\Master.css" />
     <Content Include="Estilos\RegistrarE.css" />
+    <Content Include="Estilos\RegistrarEySProductoTerminado.css" />
     <Content Include="Estilos\RegistrarInventario.css" />
     <Content Include="Estilos\RegistrarProductoTerminado.css" />
     <Content Include="Estilos\RegistrarClientes.css" />
+    <Content Include="Estilos\RegistrarVentas.css" />
     <Content Include="Estilos\ReportesProductoTerminado.css" />
     <Content Include="Imagenes\cons-clientes.png" />
     <Content Include="Imagenes\cons_ventas.png" />

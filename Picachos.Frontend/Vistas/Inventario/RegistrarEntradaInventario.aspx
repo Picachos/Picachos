@@ -10,7 +10,7 @@
     
 
    <section class="sectContenedor">
-          <asp:DropDownList CssClass="ddlEoSInv" ID="ddlEoSInv" runat="server">
+          <asp:DropDownList CssClass="ddlEoSInv" ID="ddlEoSInv" runat="server" OnPreRender="Limpiar">
                    <asp:ListItem>Entrada</asp:ListItem>
                    <asp:ListItem>Salida</asp:ListItem>
          </asp:DropDownList>
@@ -23,7 +23,7 @@
       
 
 
-         <asp:Label ID="labDesc" CssClass="labDesc" runat="server" Text="Observación: "></asp:Label>
+         <asp:Label ID="labDesc" CssClass="labDesc" runat="server" Text="Observacion: "></asp:Label>
          <asp:Textbox id="txbDesc" CssClass="txbDesc" TextMode="MultiLine" runat="server"></asp:Textbox>
         
         <asp:Label ID="labCantidad" CssClass="labCantidad" runat="server" Text="Cantidad: "></asp:Label>

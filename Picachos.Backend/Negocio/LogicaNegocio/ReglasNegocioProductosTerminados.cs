@@ -40,30 +40,73 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
             }
         }
 
-        public void EliminarProducto(int materiaPrimaID)
-        {
+        public String EliminarProducto(int productoID)
+        {/*abre metodo EliminarProducto*/
             using (var en = new PicachosEntidades())
-            {
-                var cantidadIDBorrado = (from x in en.materiaPrima
-                                         where x.materiaPrimaID == materiaPrimaID
-                                         select x).Count();
+            {/*abre using*/
+                if (productoID != 6)
+                {/*abre if*/
+                    var cantidadIDBorrado = (from x in en.productoTerminado
+                                             where x.productoID == productoID
+                                             select x).Count();
 
-                var materiaPrimaBD = en.materiaPrima.FirstOrDefault(x => x.materiaPrimaID == materiaPrimaID);
-                en.Entry(materiaPrimaBD).State = System.Data.EntityState.Deleted;
-                en.SaveChanges();
-            }
-        }
+                    /*variable de busqueda en base de datos*/
+                    var productoBD = en.productoTerminado.FirstOrDefault(x => x.productoID == productoID);
+                    en.Entry(productoBD).State = System.Data.EntityState.Deleted;
+                    en.SaveChanges();
 
-        public List<productoTerminado> getTablaProductos()
-        {
+                    if (cantidadIDBorrado >= 1) // si el numero de clientes encontrados es mayor a uno.
+                        return "Producto eliminado!"; /*mensaje de exito*/
+                    else // en caso de no se mayor a uno.
+                        return "Error no se encontro Producto"; /*mensaje de error*/
+                }/*cierra if*/
+                else
+                    return "Error al intentar eliminar"; /*mensaje de error*/
+            }/*cierra using*/
+        }/*cierra metodo EliminarProducto*/
+
+        public String ActualizarPT(productoTerminado ProductoTerminado, int productoID)
+        {/*abre metodo de actualizar inventario*/
+
+            ProductoTerminado.productoID = productoID;
+
             using (var en = new PicachosEntidades())
-            {
-                var query = from p in en.productoTerminado
-                            select p;
+            {/*abre using*/
+                try
+                {/*abre try*/
+
+                    /*variable para cambios en BD */
+                    var productosBD = en.productoTerminado.FirstOrDefault(x => x.productoID == ProductoTerminado.productoID);
+                    en.Entry(productosBD).State = System.Data.EntityState.Modified;
+                    en.Entry(productosBD).CurrentValues.SetValues(ProductoTerminado);
+                    en.SaveChanges();/*guarda cambios realizados en inventario*/
+                }/*cierra try*/
+                catch (Exception e)
+                {/*abre excepcion*/
+                    return "Problemas" + e;/*mensaje de error*/
+                }/*cierra excepcion*/
+            }/*cierra using*/
+            return "Producto Terminado Modificado";/**/
+        }/*cierra metodo*/
+
+        #endregion
+
+        #region Tablas Productos terminados
+
+
+        public List<productoTerminado> getTablaGeneral()
+        {/*abre metodo*/
+            using (var en = new PicachosEntidades())
+            {/*abre using*/
+                var query = from datos in en.productoTerminado
+                            select datos;
                 return query.ToList();
-            }
-        }
+            }/*cierra using retornando lista de entrada*/
 
+        }/*cierra metodo*/
+        #endregion
+        #region Metodos de Retorno
+        //seccion de metodos que regresan valor 
         public bool BusquedaProducto(String nombrePT)
         {/*abre metodo*/
             bool existe = false;
@@ -75,7 +118,7 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         }/*cierra metodo*/
 
 
-        
+
 
         #endregion
     }/*cierra clase ReglasNegocioProductosTerminados */

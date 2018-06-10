@@ -129,7 +129,7 @@ namespace Picachos.Frontend.Vistas.Inventario
                     else
                     {
 
-                        var entrada = new entradasalidaMateriaprima
+                        var salida = new entradasalidaMateriaprima
                         {
                             materiaPrimaID = existe,
                             observacion = txbDesc.Text,
@@ -137,9 +137,9 @@ namespace Picachos.Frontend.Vistas.Inventario
                             cantidadES = Convert.ToInt32(txbCant.Text),
 
                         };
-                        if (existe >= (Convert.ToInt32(txbCant.Text)) && Convert.ToInt32(txbCant.Text) > 0)
+                        if (existe <= (Convert.ToInt32(txbCant.Text)) && Convert.ToInt32(txbCant.Text) > 0)
                         {
-                            ReglasNegocioEntradaSalidaMP.GetInstancia().AgregarEntrada(entrada);
+                            ReglasNegocioEntradaSalidaMP.GetInstancia().AgregarSalida(salida);
                             var materiaPrima = new materiaPrima
                             {
                                 productoID = null,
@@ -154,10 +154,10 @@ namespace Picachos.Frontend.Vistas.Inventario
                         }
                         if (Convert.ToInt32(txbCant.Text) <= 0)
                         {
-                            String mensaje = "No permite registros Negativos";
+                            String mensaje = "No permite registros Negativos o Nulos";
                             MessageBox.Show(mensaje, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
                         }
-                        if (existe < (Convert.ToInt32(txbCant.Text)))
+                        if (existe > (Convert.ToInt32(txbCant.Text)))
                         {
                             String mensaje = "!La cantidad de salida es mayor que la cantidad en existencia!\n \t CANTIDAD EXISTENTE: " + AuxExistencia;
                             MessageBox.Show(mensaje, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
