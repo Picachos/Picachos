@@ -4,8 +4,8 @@
 <asp:Content ID="ContentCPT" ContentPlaceHolderID="contPHConsultaPT" runat="server">
      <link href="../../Estilos/ConsultarProductosTerminados.css" rel="stylesheet" type="text/css" />
 
-     <section id="sectImg">
-              <asp:Image ID="imgFondo"  CssClass="imgFondo"  runat="server" ImageUrl="~/Imagenes/reg_Consultas.png"  />
+     <section class="sectImgFondo">
+              <asp:Image ID="imgFondoConsPT"  CssClass="imgFondoConsPT"  runat="server" ImageUrl="~/Imagenes/reg_Consultas.png"  />
      </section>
 
      <section class="sectContenedor">                   
@@ -15,9 +15,9 @@
             OnRowDeleting="BFProductos"
             OnRowEditing="EFProductos"
            OnRowUpdating="AFProductos"
-            DataKeyNames="productoID"  >
+            DataKeyNames="productoID" BackColor="White" BorderColor="#999999" BorderWidth="1px" CellPadding="3" >
           
-           
+           <AlternatingRowStyle BackColor="#DCDCDC" />
           
         <Columns>
                    <%--Controles--%>
@@ -38,7 +38,9 @@
                           <asp:TextBox ID="txtID" ReadOnly="true" runat="server" Text='<%# Eval("productoID") %>'></asp:TextBox>
                       </EditItemTemplate>
 
+<HeaderStyle CssClass="tfHTabProducto"></HeaderStyle>
 
+<ItemStyle CssClass="tfBTabProducto"></ItemStyle>
                   </asp:TemplateField>
             
              <%--Segunda columna(Nombre) de la tabla  --%>
@@ -52,6 +54,9 @@
                     </EditItemTemplate>
                <ControlStyle></ControlStyle>
 
+<HeaderStyle CssClass="tfHTabProducto"></HeaderStyle>
+
+<ItemStyle CssClass="tfBTabProducto"></ItemStyle>
                 </asp:TemplateField>
             <%--Tercera columna(Descripcion) de la tabla  --%>
                 <asp:TemplateField HeaderText="Descripción" HeaderStyle-CssClass="v=tfHTabProducto" ItemStyle-CssClass="tfBTabProducto" ControlStyle-Width="150px">
@@ -74,7 +79,11 @@
                         <asp:TextBox ID="txbMateriales"  runat="server" Text='<% # Bind("materiales") %>' ></asp:TextBox> 
                     </EditItemTemplate>
 
+<ControlStyle Width="150px"></ControlStyle>
 
+<HeaderStyle CssClass="tfHTabProducto"></HeaderStyle>
+
+<ItemStyle CssClass="tfBTabProducto"></ItemStyle>
                      </asp:TemplateField>
             <%--Quinta columna(Tipo) de la tabla  --%>
                 <asp:TemplateField HeaderText="Tipo" HeaderStyle-CssClass="tfHTabProducto" ItemStyle-CssClass="tfBTabProducto" ControlStyle-Width="120px">
@@ -86,7 +95,11 @@
                         <asp:TextBox ID="txbTipo"  runat="server" Text='<% # Bind("tipo") %>' ></asp:TextBox> 
                     </EditItemTemplate>
 
+<ControlStyle Width="120px"></ControlStyle>
 
+<HeaderStyle CssClass="tfHTabProducto"></HeaderStyle>
+
+<ItemStyle CssClass="tfBTabProducto"></ItemStyle>
                      </asp:TemplateField>
 
              <%--Sexta columna(existencia) de la tabla  --%>
@@ -102,7 +115,15 @@
                 </asp:TemplateField>
             
               </Columns>
-   
+           <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
+           <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />
+           <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
+           <RowStyle BackColor="#EEEEEE" ForeColor="Black" />
+           <SelectedRowStyle BackColor="#008A8C" Font-Bold="True" ForeColor="White" />
+           <SortedAscendingCellStyle BackColor="#F1F1F1" />
+           <SortedAscendingHeaderStyle BackColor="#0000A9" />
+           <SortedDescendingCellStyle BackColor="#CAC9C9" />
+           <SortedDescendingHeaderStyle BackColor="#000065" />
 
 
 

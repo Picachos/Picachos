@@ -40,30 +40,19 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
             }
         }
 
-        public String EliminarProducto(int productoID)
-        {/*abre metodo EliminarProducto*/
+        public void EliminarProducto(int productoID)
+        {
             using (var en = new PicachosEntidades())
-            {/*abre using*/
-                if (productoID != 6)
-                {/*abre if*/
-                    var cantidadIDBorrado = (from x in en.productoTerminado
-                                             where x.productoID == productoID
-                                             select x).Count();
+            {
+                var cantidadIDBorrado = (from x in en.productoTerminado
+                                         where x.productoID == productoID
+                                         select x).Count();
 
-                    /*variable de busqueda en base de datos*/
-                    var productoBD = en.productoTerminado.FirstOrDefault(x => x.productoID == productoID);
-                    en.Entry(productoBD).State = System.Data.EntityState.Deleted;
-                    en.SaveChanges();
-
-                    if (cantidadIDBorrado >= 1) // si el numero de clientes encontrados es mayor a uno.
-                        return "Producto eliminado!"; /*mensaje de exito*/
-                    else // en caso de no se mayor a uno.
-                        return "Error no se encontro Producto"; /*mensaje de error*/
-                }/*cierra if*/
-                else
-                    return "Error al intentar eliminar"; /*mensaje de error*/
-            }/*cierra using*/
-        }/*cierra metodo EliminarProducto*/
+                var productoBD = en.productoTerminado.FirstOrDefault(x => x.productoID == productoID);
+                en.Entry(productoBD).State = System.Data.EntityState.Deleted;
+                en.SaveChanges();
+            }
+        }
 
         public String ActualizarPT(productoTerminado ProductoTerminado, int productoID)
         {/*abre metodo de actualizar inventario*/

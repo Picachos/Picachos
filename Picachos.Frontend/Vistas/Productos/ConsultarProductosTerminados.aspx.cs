@@ -18,17 +18,19 @@ namespace Picachos.Frontend.Vistas.Productos
 
             /*validacion de sesion*/
             this.UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None;
-
-            if (Session["new"] != null)
+            if (!IsPostBack)
             {
-                //Si existe la sesion continuara donde esta
-                 ExtDatTabPT();
-                   
+                if (Session["new"] != null)
+                {
+                    //Si existe la sesion continuara donde esta
+                    ExtDatTabPT();
+
                 }
                 else
                 {
-                    Response.Redirect("/Vistas/Login/Login.aspx");
+                    Response.Redirect("Login.aspx");
                 }
+            }
         }//cierra pageload
         private void ExtDatTabPT()
         {
@@ -45,11 +47,11 @@ namespace Picachos.Frontend.Vistas.Productos
         }
         protected void BFProductos(object sender, GridViewDeleteEventArgs e)
         {
-
+            /*Borrado de inventario*/
             int productoID = Convert.ToInt32(vgridProductos.DataKeys[e.RowIndex].Values[0]);
-
-            string mensaje = ReglasNegocioProductosTerminados.GetInstancia().EliminarProducto(productoID);//recibe respuesta de borrar id que no sea el admin
-            System.Windows.Forms.MessageBox.Show(mensaje, "Informacion", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Information, System.Windows.Forms.MessageBoxDefaultButton.Button1, System.Windows.Forms.MessageBoxOptions.DefaultDesktopOnly);
+            string mensaje = "!Producto Terminado Eliminado!";
+            ReglasNegocioProductosTerminados.GetInstancia().EliminarProducto(productoID);
+            System.Windows.Forms.MessageBox.Show(mensaje, "Información", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Information, System.Windows.Forms.MessageBoxDefaultButton.Button1, System.Windows.Forms.MessageBoxOptions.DefaultDesktopOnly);
             vgridProductos.EditIndex = -1;
             ExtDatTabPT();
         }

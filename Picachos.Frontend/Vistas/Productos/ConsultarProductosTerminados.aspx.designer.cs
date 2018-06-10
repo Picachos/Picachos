@@ -13,13 +13,13 @@ namespace Picachos.Frontend.Vistas.Productos {
     public partial class ConsultarProductosTerminados {
         
         /// <summary>
-        /// Control imgFondo.
+        /// Control imgFondoConsPT.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgFondo;
+        protected global::System.Web.UI.WebControls.Image imgFondoConsPT;
         
         /// <summary>
         /// Control vgridProductos.
