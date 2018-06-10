@@ -23,7 +23,7 @@
       
 
 
-         <asp:Label ID="labDesc" CssClass="labDesc" runat="server" Text="Observacion: "></asp:Label>
+         <asp:Label ID="labDesc" CssClass="labDesc" runat="server" Text="Observación: "></asp:Label>
          <asp:Textbox id="txbDesc" CssClass="txbDesc" TextMode="MultiLine" runat="server"></asp:Textbox>
         
         <asp:Label ID="labCantidad" CssClass="labCantidad" runat="server" Text="Cantidad: "></asp:Label>
