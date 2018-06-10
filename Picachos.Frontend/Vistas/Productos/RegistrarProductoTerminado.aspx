@@ -11,7 +11,7 @@
            <asp:Label ID="labNombrePT" CssClass="labNombrePT" runat="server" Text="Nombre del producto:"></asp:Label>       
            <asp:TextBox  ID="txbNombrePT" CssClass="txbNombrePT" runat="server" MaxLength="60" ToolTip="Ingresar nombre(s) descriptivo(s)"></asp:TextBox>
                                      
-           <asp:Label ID="labDesc" CssClass="labDesc" runat="server" Text="Descripcion: "></asp:Label>
+           <asp:Label ID="labDesc" CssClass="labDesc" runat="server" Text="Descripción: "></asp:Label>
            <asp:TextBox  ID="txbDesc" CssClass="txbDesc" runat="server" MaxLength="60" ToolTip="Ingresar descripcion" TextMode="MultiLine"></asp:TextBox>
       
            <asp:Label ID="labTipoProducto" CssClass="labTipoProducto" runat="server" Text="¿Tipo de producto?"></asp:Label>
