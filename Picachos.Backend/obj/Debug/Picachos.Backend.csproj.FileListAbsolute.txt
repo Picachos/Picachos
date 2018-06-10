@@ -240,3 +240,28 @@ C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\
 C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
 C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
 C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.Mvc.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.Razor.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.Mvc.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.Razor.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
