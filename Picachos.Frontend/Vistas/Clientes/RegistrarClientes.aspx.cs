@@ -63,7 +63,7 @@ namespace Picachos.Frontend.Vistas.Clientes
                     };
                    
                     if (client.ValidarTel(checktelefono)==true||client.ValidarRFC(checkrfc)==true) {
-                        mensaje = "Cantidad de caracteres o digitos, incorrectos";
+                        mensaje = "Cantidad de caracteres o dígitos, incorrectos";
                         MessageBox.Show(mensaje, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
                         txbRazonSocial.Text = "";
                         txbRFC.Text = "";

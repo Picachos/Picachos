@@ -20,12 +20,12 @@
 
          <asp:Label ID="labDireccion" CssClass="labDireccion" runat="server" Text="Dirección:"></asp:Label>                
          <asp:TextBox  ID="TextDireccion" CssClass="TextDireccion" runat="server" MaxLength="80" ToolTip="Ingresar direccion donde se enviara el pedido"></asp:TextBox>
-         <asp:RequiredFieldValidator CssClass="reqFVDirecc" ID="reqFVDirecc" runat="server" ControlToValidate="TextDireccion" ErrorMessage="Favor de ingresar nombre completo"></asp:RequiredFieldValidator>
+         <asp:RequiredFieldValidator CssClass="reqFVDirecc" ID="reqFVDirecc" runat="server" ControlToValidate="TextDireccion" ErrorMessage="Favor de ingresar dirección"></asp:RequiredFieldValidator>
        
          <asp:Label ID="labTelefono" CssClass="labTelefono" runat="server" Text="Teléfono:"></asp:Label>                
          <asp:TextBox  ID="txbTelefono" CssClass="txbTelefono" runat="server" MaxLength="10" ToolTip="Ingresar telefono"></asp:TextBox>
          <asp:RequiredFieldValidator CssClass="reqFVTelefono" ID="reqFVTelefono" runat="server" ControlToValidate="txbTelefono" ErrorMessage="Favor de ingresar teléfono"></asp:RequiredFieldValidator>  
-         <asp:RegularExpressionValidator ID="RegEVTelefono" CssClass="reqFVTelefono" runat="server" ControlToValidate="txbTelefono" ErrorMessage="Introducir Valor Numerico" ForeColor="red" ValidationExpression="^[0-9]*"></asp:RegularExpressionValidator>
+         <asp:RegularExpressionValidator ID="RegEVTelefono" CssClass="reqFVTelefono" runat="server" ControlToValidate="txbTelefono" ErrorMessage="Introducir Valor Numérico" ForeColor="red" ValidationExpression="^[0-9]*"></asp:RegularExpressionValidator>
 
          <asp:Label ID="labObservacion" CssClass="labObservacion" runat="server" Text="Observaciones: "></asp:Label>
          <asp:TextBox  ID="txbObservacion" CssClass="txbObservacion" runat="server" MaxLength="400" ToolTip="Ingresar observacion" TextMode="MultiLine"></asp:TextBox>

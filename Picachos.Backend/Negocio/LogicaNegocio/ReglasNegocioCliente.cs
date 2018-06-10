@@ -178,7 +178,7 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         }//fin ValidacionRepCliente
         public bool ValidarRFC(String rfc)
         {
-            if (rfc.Length<=13) // si rfc menor a 13
+            if (rfc.Length != 13 ) // si rfc menor a 13
             {
                 return true;// "RFC invalido"; // mensaje de retorno
             }
@@ -191,7 +191,7 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
 
         public bool ValidarTel(String tel)
         {
-            if (tel.Length <= 9) // si telefono es mayor a 10
+            if (tel.Length != 10) // si telefono es mayor a 10
             {
                 return true;// "Telefono invalido"; // mensaje de retorno
             }
