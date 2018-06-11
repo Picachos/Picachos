@@ -38,7 +38,7 @@
                   </asp:TemplateField>
 
                    <%--Segunda columna(Nombre) de la tabla Clientes --%>
-                <asp:TemplateField HeaderText="Nombre" HeaderStyle-CssClass="tfHTabC"  ItemStyle-CssClass="tfBTabC" >
+                <asp:TemplateField HeaderText="Nombre" HeaderStyle-CssClass="tfHTabC"  ItemStyle-CssClass="tfBTabC" ControlStyle-Width="120px" >
                     <ItemTemplate>
                         <asp:Label ID="labNom" runat="server" Text='<% # Bind("nombre") %>'></asp:Label> 
                     </ItemTemplate>
@@ -49,7 +49,7 @@
                 </asp:TemplateField>
 
                 <%--Tercera columna(rfc) de la tabla clientes --%>
-                <asp:TemplateField HeaderText="RFC" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="100px">
+                <asp:TemplateField HeaderText="RFC" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="150px">
                     <ItemTemplate>
                         <asp:Label ID="labRFC" runat="server" Text='<% # Bind("rfc") %>'></asp:Label> 
                     </ItemTemplate>

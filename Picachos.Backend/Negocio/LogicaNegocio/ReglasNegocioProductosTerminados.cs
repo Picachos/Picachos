@@ -155,6 +155,39 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
             }/*cierra using*/
         }/*cierra metodo*/
 
+        public int getDatoID(String productoNom)
+        {/*abre metodo*/
+            using (var en = new PicachosEntidades())
+            {/*abre using*/
+                var listaProducto = from datos in en.productoTerminado
+                                    where datos.nombreProducto.Equals(productoNom, StringComparison.Ordinal)
+                                    select datos;
+                foreach (var producto in listaProducto)
+                {/*abre foreach en materia prima*/
+                    if (producto.nombreProducto.Equals(productoNom, StringComparison.Ordinal))
+                        return producto.productoID;
+                }/*cierra foreach regresando resultado*/
+                return 0;
+            }/*cierra using*/
+        }
+
+       public  int getDatoCantidad(String nombre)
+        {/*abre metodo*/
+            using (var en = new PicachosEntidades())
+            {/*abre using*/
+                var listaProducto = from datos in en.productoTerminado
+                                   where datos.nombreProducto.Equals(nombre, StringComparison.Ordinal)
+                                  select datos;
+                foreach (var producto in listaProducto)
+                {/*abre foreach en materia prima*/
+                    if (producto.nombreProducto.Equals(nombre, StringComparison.Ordinal))
+                       return producto.existencia.Value;
+                }/*cierra foreach regresando resultado*/
+                return 0;
+            }/*cierra using*/
+
+        }/*cierra metodo*/
+
 
 
         #endregion

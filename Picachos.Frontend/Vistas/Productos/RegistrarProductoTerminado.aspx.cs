@@ -391,7 +391,7 @@ namespace Picachos.Frontend.Vistas.Productos
                             nombreProducto = txbNombrePT.Text,
                             tipo = "EMPAQUETADO",
                             existencia = 0,
-                            materiales = txbCant.Text + "  Piezas de " + txbSelecCuatro.Text,
+                            materiales = txbCant.Text + " Piezas de " + txbSelecCuatro.Text,
                             descripcionProducto = txbDesc.Text,
                             venta = null,
                         };

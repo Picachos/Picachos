@@ -8,8 +8,8 @@
               <asp:Image ID="imgFondoRepPT" CssClass="imgFondoRepPT"  runat="server" ImageUrl="~/Imagenes/productos-rep.png" />
         </section>
 
-        <asp:Label ID="labTipoConsulta" CssClass="labTipoConsulta" runat="server" Text="Tipo Consulta: " ></asp:Label>
-          <asp:RadioButtonList ID="radio" CssClass="radio" runat="server" RepeatDirection="Horizontal" ForeColor="#0000ff" OnSelectedIndexChanged="radio_SelectedIndexChanged" Font-Size="Medium"  AutoPostBack="true" >
+        <asp:Label ID="labTipoConsulta" CssClass="labTipoConsulta" runat="server" Text="Seleccione Tipo de Consulta: " ></asp:Label>
+          <asp:RadioButtonList ID="radio" CssClass="radio" runat="server" RepeatDirection="Horizontal" ForeColor="#0000ff" OnSelectedIndexChanged="radio_SelectedIndexChanged" Font-Size="Large"  AutoPostBack="true" >
             <asp:ListItem Text="Entrada" Value="Entrada"  />
             <asp:ListItem Text="Salida" Value="Salida" />
             <asp:ListItem Text="General" Value="General" />
@@ -35,7 +35,7 @@
 
                
                 <%--Tercera columna(observacion) de la tabla EyS --%>
-                      <asp:TemplateField HeaderText="Observación" HeaderStyle-CssClass="tfHTabEntradaSalida" ItemStyle-CssClass="tfHTabEntradaSalida" ControlStyle-Width="200px">
+                      <asp:TemplateField HeaderText="Observación" HeaderStyle-CssClass="tfHTabEntradaSalida" ItemStyle-CssClass="tfHTabEntradaSalida" ControlStyle-Width="250px">
                               <ItemTemplate>
                                     <asp:Label ID="labObservacion" runat="server" Text='<% # Bind("observacion") %>'></asp:Label> 
                               </ItemTemplate>                  
@@ -46,7 +46,7 @@
                       </asp:TemplateField>
      
                <%--Cuarta columna(Fecha) de la tabla EyS --%>
-                    <asp:TemplateField HeaderText="Fecha" HeaderStyle-CssClass="tfHTabEntradaSalida" ItemStyle-CssClass="tfHTabEntradaSalida" ControlStyle-Width="120px">
+                    <asp:TemplateField HeaderText="Fecha" HeaderStyle-CssClass="tfHTabEntradaSalida" ItemStyle-CssClass="tfHTabEntradaSalida" ControlStyle-Width="200px">
                              <ItemTemplate>
                                    <asp:Label ID="labFecha" runat="server" Text='<% # Bind("fechaES") %>'></asp:Label> 
                              </ItemTemplate>              

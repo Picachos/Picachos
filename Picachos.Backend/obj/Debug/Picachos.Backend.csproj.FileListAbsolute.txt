@@ -264,3 +264,11 @@ C:\Users\My Hp\Desktop\Picachos 5.4\Picachos.Backend\bin\Debug\EntityFramework.x
 C:\Users\My Hp\Desktop\Picachos 5.4\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
 C:\Users\My Hp\Desktop\Picachos 5.4\Picachos.Backend\obj\Debug\Picachos.Backend.dll
 C:\Users\My Hp\Desktop\Picachos 5.4\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\obj\Debug\Picachos.Backend.pdb

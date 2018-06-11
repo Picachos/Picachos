@@ -121,6 +121,8 @@
 .vgridProductos{
     width:40%;
     height:30%;
+    top:20%;
+    position:absolute;
 }
 
 .tfBTabProducto{

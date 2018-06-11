@@ -37,7 +37,7 @@ namespace Picachos.Frontend.Vistas.Productos
                         ddlEySPT.DataBind();
                     }
 
-                    ddlEySPT.Items.Insert(0, new ListItem { Value = "0", Text = "-Seleccion-" });
+                    ddlEySPT.Items.Insert(0, new ListItem { Value = "0", Text = "-Seleccione Productos-" });
 
 
                 }
@@ -90,7 +90,8 @@ namespace Picachos.Frontend.Vistas.Productos
                         if (Convert.ToInt32(txbCantidad.Text) > 0)
                         {
 
-                            ReglasNegocioEySProductos.GetInstancia().AgregarEntrada(entrada);
+                           
+                           
                             var productos = new productoTerminado
                             {
                                 productoID = existe,
@@ -99,38 +100,70 @@ namespace Picachos.Frontend.Vistas.Productos
                                 tipo = ReglasNegocioProductosTerminados.GetInstancia().getTipo(nombreProducto),
                                 existencia = AuxExistencia + (Convert.ToInt32(txbCantidad.Text)),
                                 descripcionProducto = ReglasNegocioEySProductos.GetInstancia().getDescripcionPT(nombreProducto),
-
                             };
-                            ReglasNegocioProductosTerminados.GetInstancia().ActualizarPT(productos, productoID);
-                            String MaterialesAux= ReglasNegocioProductosTerminados.GetInstancia().getMateriales(nombreProducto);
-                           
-                            Char delimiter = ',';
-                            String[] substrings = MaterialesAux.Split(delimiter);
-                            for (int x = 0; x < 3; x++)
+                            if (productos.tipo.Equals("UNITARIO"))
                             {
-                                if (substrings[x] != null)
+
+                                String MaterialesAux = ReglasNegocioProductosTerminados.GetInstancia().getMateriales(nombreProducto);
+
+                                Char delimiter = ',';
+                                String[] substrings = MaterialesAux.Split(delimiter);
+                                for (int x = 0; x < 3; x++)
                                 {
-                                    int ID = ReglasNegocioMateriaPrima.GetInstancia().getDatoID(substrings[x]);
-                                    int ExtMateriaP = ReglasNegocioMateriaPrima.GetInstancia().getDatoCantidad(substrings[x]);
-
-
-                                    var materiaPrima = new materiaPrima
+                                    if (substrings[x] != null)
                                     {
-                                        productoID = null,
-                                        nombreMateria = substrings[x],
-                                        existencia = ExtMateriaP - (Convert.ToInt32(txbCantidad.Text)),
-                                        descripcion = ReglasNegocioMateriaPrima.GetInstancia().getDescripcionMP(substrings[x]),
+                                        int ID = ReglasNegocioMateriaPrima.GetInstancia().getDatoID(substrings[x]);
+                                        int ExtMateriaP = ReglasNegocioMateriaPrima.GetInstancia().getDatoCantidad(substrings[x]);
 
-                                    };
+                                        var materiaPrima = new materiaPrima
+                                        {
+                                            productoID = null,
+                                            nombreMateria = substrings[x],
+                                            existencia = ExtMateriaP - (Convert.ToInt32(txbCantidad.Text)),
+                                            descripcion = ReglasNegocioMateriaPrima.GetInstancia().getDescripcionMP(substrings[x]),
+                                        };
+
+                                        ReglasNegocioMateriaPrima.GetInstancia().ActualizarInventario(materiaPrima, ID);
                                     
-                                    ReglasNegocioMateriaPrima.GetInstancia().ActualizarInventario(materiaPrima, ID);
+                                      }
                                 }
-                            }
+                                ReglasNegocioProductosTerminados.GetInstancia().ActualizarPT(productos, productoID);
+                                ReglasNegocioEySProductos.GetInstancia().AgregarEntrada(entrada);
 
-                            String mensaje = "Entrada Exitosa";
-                            MessageBox.Show(mensaje, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
-                        }
-                        else
+
+                                String mensaje = "Entrada Exitosa";
+                                MessageBox.Show(mensaje, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                            }
+                            else { 
+                                     String MaterialesAux= ReglasNegocioProductosTerminados.GetInstancia().getMateriales(nombreProducto);
+                           
+                                    Char delimiter = ' ';
+                                    String[] substrings = MaterialesAux.Split(delimiter);
+
+                                            int ID = ReglasNegocioProductosTerminados.GetInstancia().getDatoID(substrings[3]);
+                                            int ExtPT = ReglasNegocioProductosTerminados.GetInstancia().getDatoCantidad(substrings[3]);
+                                            int ARestar = Convert.ToInt32(substrings[0]) * Convert.ToInt32(txbCantidad.Text);
+                                            
+                                            var producto = new productoTerminado
+                                            {
+                                                productoID = existe,
+                                                nombreProducto = substrings[3],
+                                                materiales = ReglasNegocioProductosTerminados.GetInstancia().getMateriales(nombreProducto),
+                                                tipo = "UNITARIO",
+                                                existencia = ExtPT + (Convert.ToInt32("-" + ARestar)),
+                                                descripcionProducto = ReglasNegocioEySProductos.GetInstancia().getDescripcionPT(nombreProducto),
+                                            };
+                                    
+                                            ReglasNegocioProductosTerminados.GetInstancia().ActualizarPT(producto, ID);
+                                       
+                                    ReglasNegocioProductosTerminados.GetInstancia().ActualizarPT(productos, productoID);
+                                    ReglasNegocioEySProductos.GetInstancia().AgregarEntrada(entrada);
+
+
+                                    String mensajess = "Entrada Exitosa";
+                                    MessageBox.Show(mensajess, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                                    }
+                     }else
                         {
                             String mensaje = "No permite registros Negativos";
                             MessageBox.Show(mensaje, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
