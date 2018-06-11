@@ -70,13 +70,20 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         {/*abre metodo*/
             using (var en = new PicachosEntidades())
             {/*abre using*/
-                var cantidadIDBorrado = (from x in en.materiaPrima
+                var cantidadIDBorradoESMP = (from x in en.entradasalidaMateriaprima
+                                         where x.materiaPrimaID == materiaPrimaID
+                                         select x).Count();
+                var cantidadIDBorradoMP = (from x in en.materiaPrima
                                          where x.materiaPrimaID == materiaPrimaID
                                              select x).Count();
                 /*variable para realizar el eliminar de la BD*/
-                var materiaPrimaBD = en.materiaPrima.FirstOrDefault(x => x.materiaPrimaID == materiaPrimaID);
-                    en.Entry(materiaPrimaBD).State = System.Data.EntityState.Deleted;
-                    en.SaveChanges();/*guarda los cambios de materia eliminada*/
+                var materiaPrimaBDESMP = en.entradasalidaMateriaprima.FirstOrDefault(x => x.materiaPrimaID == materiaPrimaID);
+                    en.Entry(materiaPrimaBDESMP).State = System.Data.EntityState.Deleted;
+                    en.SaveChanges();
+                var materiaPrimaBDMP = en.materiaPrima.FirstOrDefault(x => x.materiaPrimaID == materiaPrimaID);
+                    en.Entry(materiaPrimaBDMP).State = System.Data.EntityState.Deleted;
+                    en.SaveChanges();
+                /*guarda los cambios de materia eliminada*/
             }/*cierra using*/
         }/*cierra metodo*/
 

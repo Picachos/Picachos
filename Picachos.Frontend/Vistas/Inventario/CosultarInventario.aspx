@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Vistas/Picachos.Master" AutoEventWireup="true" CodeBehind="CosultarInventario.aspx.cs" Inherits="Picachos.Frontend.Vistas.Inventario.CosultarInventario" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Vistas/Picachos.Master" AutoEventWireup="true" CodeBehind="CosultarInventario.aspx.cs" Inherits="Picachos.Frontend.Vistas.Inventario.CosultarInventario" EnableEventValidation="false" %>
 
 <asp:Content ID="contConsInv" ContentPlaceHolderID="contPHConsInv" runat="server">
     <link href="../../Estilos/ConsultarInventario.css" rel="stylesheet" type="text/css" />
@@ -26,7 +26,7 @@
                   </asp:CommandField>
                  <asp:TemplateField ShowHeader="False">
                      <ItemTemplate>
-                         <asp:Button AccessKey="B" CssClass="btnBorrar" ID="btnBorrar" runat="server" CausesValidation ="False" CommandName="Delete" Text="Borrar" OnClientClick="return confirm('Estas seguro de eliminar el usuario?')"/>
+                         <asp:Button AccessKey="B" CssClass="btnBorrar" ID="btnBorrar" runat="server" CausesValidation ="False" CommandName="Delete" Text="Borrar" OnClientClick="return confirm('Estas seguro de eliminar Materia Prima?')"/>
                      </ItemTemplate>
                 </asp:TemplateField>
              <%--Primera columna(materiaPrimaID) de la tabla materiaPrima --%>
