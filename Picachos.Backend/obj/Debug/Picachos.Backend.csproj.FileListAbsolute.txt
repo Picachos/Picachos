@@ -1,3 +1,272 @@
+<<<<<<< HEAD
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\System.Web.Mvc.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\System.Web.Razor.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\System.Web.WebPages.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\System.Web.Mvc.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\System.Web.Razor.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\System.Web.WebPages.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+E:\Picachos 5.1\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+E:\Picachos 5.1\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+E:\Picachos 5.1\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\System.Web.Mvc.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\System.Web.Razor.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\System.Web.WebPages.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\System.Web.Mvc.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\System.Web.Razor.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\System.Web.WebPages.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\System.Web.Mvc.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\System.Web.Razor.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\System.Web.Mvc.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\System.Web.Razor.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+=======
 c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
 c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
 c:\users\javier\documents\visual studio 2012\Projects\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
@@ -264,3 +533,32 @@ C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\
 C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
 C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
 C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.Mvc.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.Razor.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.Mvc.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.Razor.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+>>>>>>> christopher
+>>>>>>> marcos

@@ -1,3 +1,705 @@
+<<<<<<< HEAD
+C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\EntityFramework.dll
+C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.dll
+C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos V2.6\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos V2.6\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos V2.6\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos V2.6\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos V2.6\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos V2.6\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos V2.6\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+F:\Picachos 2.7 310118\Picachos 2.6\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+F:\Picachos 2.7 310118\Picachos 2.6\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+F:\Picachos 2.7 310118\Picachos 2.6\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Javier\Desktop\Picachos 2.6\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 2.8\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 2.9 140218\Picachos 2.9\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Javier\Desktop\Picachos 3.0 190218\Picachos 2.9\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Javier\Desktop\Picachos 3.0 200218\Picachos 3.0\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.1 260218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.2 270218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.3 270218 Roxana\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Javier\Desktop\Picachos 3.4 nueva Version para cris\Picachos 3.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 3.5 -050318\Picachos 3.5\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.6 -130318\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\MAESTRO\Documents\MARCOS\SEMESTRE\7\Materia\Administracion de proyectos de software\Proyecto de aplicacion\Picachos 3.7 -199663\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.7 -199663\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 3.7 -199663\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.7 -199663\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.7 -199663\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.8\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.fakesconfig
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 3.9\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.fakesconfig
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 3.9 v2\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.fakesconfig
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.fakesconfig
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 4-1\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.3\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.fakesconfig
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Picachos 4.3-Bety\Picachos\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.fakesconfig
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\Picachos.Frontend.dll.config
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.Mvc.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.Razor.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.WebPages.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.Mvc.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.Razor.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.WebPages.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\es\System.Web.Razor.resources.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Sonia Robles\Desktop\Picachos 4.7\Picachos.Frontend\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig.mp3
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Picachos 4.8\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig.mp3
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 4.9\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig.mp3
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\My Hp\Desktop\Versiones Picachos\Picachos 5\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig.mp3
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+E:\Picachos 5.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\Picachos.Frontend.dll.config
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.Mvc.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.Razor.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.WebPages.Razor.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.WebPages.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.Mvc.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.Razor.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.WebPages.Razor.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.WebPages.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\es\System.Web.Mvc.resources.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\es\System.Web.Razor.resources.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\es\System.Web.WebPages.resources.dll
+C:\Users\MAESTRO\Desktop\Picachos 5.1\Picachos.Frontend\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig.mp3
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig.mp3
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Beatriz Ramirez\Documents\Visual Studio 2012\Projects\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+G:\Picachos 5.2 bety\Picachos.Frontend\bin\Picachos.Frontend.dll
+G:\Picachos 5.2 bety\Picachos.Frontend\bin\Picachos.Frontend.pdb
+G:\Picachos 5.2 bety\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+G:\Picachos 5.2 bety\Picachos.Frontend\bin\Picachos.Backend.dll
+G:\Picachos 5.2 bety\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+G:\Picachos 5.2 bety\Picachos.Frontend\bin\Picachos.Backend.pdb
+G:\Picachos 5.2 bety\Picachos.Frontend\bin\EntityFramework.xml
+G:\Picachos 5.2 bety\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+G:\Picachos 5.2 bety\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+G:\Picachos 5.2 bety\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig.mp3
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+G:\Picachos 5.2 bety\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojFakesResolveAssemblyReference.cache
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\fakes.args
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\b\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ah
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.ch
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.cs
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.csproj
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakes
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.fakesconfig.mp3
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\f.snk
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csproj.FileListAbsolute.txt
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\f.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Fakes\swm\o\System.Web.Mvc.3.0.0.1.Fakes.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll.config
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.Mvc.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.Razor.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.Razor.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.Mvc.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.Razor.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.Razor.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\es\System.Web.Mvc.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\es\System.Web.Razor.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\es\System.Web.WebPages.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\MAESTRO\Source\Repos\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+=======
 C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
 C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
 C:\Users\Javier\Documents\Visual Studio 2012\Projects\Picachos\Picachos.Frontend\bin\EntityFramework.dll
@@ -728,3 +1430,38 @@ C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj
 C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
 C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
 C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll.config
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\Picachos.Frontend.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\Picachos.Frontend.pdb
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\Picachos.Backend.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.Mvc.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.Razor.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\Picachos.Backend.pdb
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\EntityFramework.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\EntityFramework.SqlServer.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.Mvc.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.Mvc.3.0.0.1.Fakes.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.Razor.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\es\System.Web.Razor.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.csprojResolveAssemblyReference.cache
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.dll
+C:\Users\Sonia Robles\Desktop\GithubPicachos\Picachos\Picachos.Frontend\obj\Debug\Picachos.Frontend.pdb
+>>>>>>> christopher
+>>>>>>> marcos
