@@ -1,4 +1,4 @@
-ï»¿<%@ Page Title="" Language="C#" MasterPageFile="~/Vistas/Picachos.Master" AutoEventWireup="true" CodeBehind="ConsultarClientes.aspx.cs" Inherits="Picachos.Frontend.Vistas.Clientes.ConsultarClientes" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Vistas/Picachos.Master" AutoEventWireup="true" CodeBehind="ConsultarClientes.aspx.cs" Inherits="Picachos.Frontend.Vistas.Clientes.ConsultarClientes" %>
 
 
 <asp:Content ID="contConsClie" ContentPlaceHolderID="contPHConsC" runat="server">
@@ -32,13 +32,13 @@
                           <asp:Label ID="LabID" runat="server" Text='<%# Bind("clienteID") %>'></asp:Label>
                       </ItemTemplate>
                       <EditItemTemplate>
-                          <asp:TextBox ID="txtID" ReadOnly="true" runat="server" Text='<%# Eval("clienteID") %>'></asp:TextBox>
+                          <asp:TextBox ID="txtID"  ReadOnly="true" runat="server" Text='<%# Eval("clienteID") %>'></asp:TextBox>
                       </EditItemTemplate>
                       
                   </asp:TemplateField>
 
                    <%--Segunda columna(Nombre) de la tabla Clientes --%>
-                <asp:TemplateField HeaderText="Nombre" HeaderStyle-CssClass="tfHTabC"  ItemStyle-CssClass="tfBTabC" ControlStyle-Width="120px" >
+                <asp:TemplateField HeaderText="Nombre" HeaderStyle-CssClass="tfHTabC"  ItemStyle-CssClass="tfBTabC" >
                     <ItemTemplate>
                         <asp:Label ID="labNom" runat="server" Text='<% # Bind("nombre") %>'></asp:Label> 
                     </ItemTemplate>
@@ -51,9 +51,8 @@
                 <%--Tercera columna(rfc) de la tabla clientes --%>
                 <asp:TemplateField HeaderText="RFC" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="150px">
                     <ItemTemplate>
-                        <asp:Label ID="labRFC" runat="server" Text='<% # Bind("rfc") %>'></asp:Label> 
-                    </ItemTemplate>
-                        
+                        <asp:Label ID="labRFC" runat="server" Text='<% # Bind("rfc") %>'></asp:Label>
+                    </ItemTemplate>                        
                     <EditItemTemplate>
                         <asp:TextBox ID="txbRFC" runat="server" Text='<% # Bind("rfc") %>' ></asp:TextBox> 
                     </EditItemTemplate>
@@ -71,7 +70,7 @@
                 </asp:TemplateField>
 
                 <%--Quinta columna(Direccion) de la tabla Clientes --%>
-                <asp:TemplateField HeaderText="DirecciÃ³n" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="100px">
+                <asp:TemplateField HeaderText="Dirección" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="100px">
                     <ItemTemplate>
                         <asp:Label ID="labDir" runat="server" Text='<% # Bind("direccion") %>'></asp:Label> 
                     </ItemTemplate>
@@ -82,7 +81,7 @@
                 </asp:TemplateField>
 
                    <%--Sexta columna(Telefono) de la tabla Clientes --%>
-                <asp:TemplateField HeaderText="TelÃ©fono" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="100px">
+                <asp:TemplateField HeaderText="Teléfono" HeaderStyle-CssClass="tfHTabC" ItemStyle-CssClass="tfBTabC" ControlStyle-Width="100px">
                     <ItemTemplate>
                         <asp:Label ID="labTel" runat="server" Text='<% # Bind("telefono") %>'></asp:Label> 
                     </ItemTemplate>

@@ -58,8 +58,23 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         }/*cierra metodo*/
 
 
+        public String getUltimoID()
+        {/*abre metodo*/
+            using (var en = new PicachosEntidades())
+            {/*abre using*/
+                var ultimo = from datos in en.venta
+                             select datos.folio.GetValueOrDefault();
+
+
+                return ultimo.ToString();
+            }/*cierra using retornando lista
+        }/*cierra metodo*/
+
+
+
 
         #endregion
 
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿using Picachos.Backend.Negocio.EntidadesNegocio;
+using Picachos.Backend.Negocio.EntidadesNegocio;
 using Picachos.Backend.Negocio.LogicaNegocio;
 using System;
 using System.Collections.Generic;
@@ -69,7 +69,7 @@ namespace Picachos.Frontend.Vistas.Clientes
             var Cliente = new cliente
             {
                 nombre = (fila.FindControl("txbNom") as TextBox).Text,
-                rfc = (fila.FindControl("txbRFC") as TextBox).Text,
+                rfc = (fila.FindControl("txbRFC") as TextBox).Text.ToUpper(),
                 observaciones = (fila.FindControl("txbObs") as TextBox).Text,
                 direccion= (fila.FindControl("txbDir")as TextBox).Text,
                 telefono = (fila.FindControl("txbTel") as TextBox).Text
@@ -96,6 +96,7 @@ namespace Picachos.Frontend.Vistas.Clientes
                     {
                         System.Windows.Forms.MessageBox.Show(mensaje, "Error", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error, System.Windows.Forms.MessageBoxDefaultButton.Button1, System.Windows.Forms.MessageBoxOptions.DefaultDesktopOnly);
                     }
+
                 }
                 else
                 {

@@ -1,4 +1,5 @@
 ﻿//liberias que se utilizaran
+//liberias que se utilizaran
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -50,12 +51,14 @@ namespace Picachos.Frontend.Vistas
 
         }//cierra pageload
 
-        protected void cerrarSesion(object sender, EventArgs e)
-        {
-            Session["New"] = null;
-            Response.Redirect("/Vistas/Login/Login.aspx");
-        }//cierra sesion
+        /*protected void cerrarSesion(object sender, EventArgs e)
+          {
+              System.Windows.Forms.MessageBox.Show("upsis", "Informacion", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Information, System.Windows.Forms.MessageBoxDefaultButton.Button1, System.Windows.Forms.MessageBoxOptions.DefaultDesktopOnly);
 
+              Session["New"] = null;
+              Response.Redirect("/Vistas/Login/Login.aspx");
+          }//cierra sesion
+          */
 
     }//cierra clase picachos master
 }//cierra namespace

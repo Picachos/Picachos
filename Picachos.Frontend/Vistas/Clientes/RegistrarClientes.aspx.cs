@@ -1,4 +1,4 @@
-ï»¿//Creado por Robles Alvarado Sonia , ultima modificacion 08-06-18
+//Creado por Robles Alvarado Sonia , ultima modificacion 08-06-18
 
 
 //librerias que se utilizaran
@@ -52,11 +52,14 @@ namespace Picachos.Frontend.Vistas.Clientes
 					 //Validaciones
                     string checkrfc = txbRFC.Text;
                     string checktelefono = txbTelefono.Text;
-                    var Cliente = new cliente 
+                    string Mayusrfc=checkrfc.ToUpper();
+                    var Cliente = new cliente
                     {
+                        
                        nombre = txbRazonSocial.Text,
-                       rfc = txbRFC.Text,
-                       observaciones= txbObservacion.Text,
+                       //rfc = txbRFC.Text,
+                        rfc = txbRFC.Text.ToUpper(),
+                       observaciones = txbObservacion.Text,
                        direccion= TextDireccion.Text,
                        telefono= txbTelefono.Text,
                     
@@ -64,7 +67,7 @@ namespace Picachos.Frontend.Vistas.Clientes
                    
                     if (client.ValidarTel(checktelefono)==true||client.ValidarRFC(checkrfc)==true) {
                         mensaje = "Cantidad de caracteres o digitos, incorrectos";
-                        MessageBox.Show(mensaje, "InformaciÃ³n", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBox.Show(mensaje, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
                         txbRazonSocial.Text = "";
                         txbRFC.Text = "";
                         TextDireccion.Text = "";
@@ -75,7 +78,7 @@ namespace Picachos.Frontend.Vistas.Clientes
                         ReglasNegocioCliente.GetInstancia().AgregarCliente(Cliente);
 
                         mensaje = "Cliente registrado";
-                        MessageBox.Show(mensaje, "InformaciÃ³n", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBox.Show(mensaje, "Información", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
 
                         txbRazonSocial.Text = "";
                         txbRFC.Text = "";
@@ -95,7 +98,11 @@ namespace Picachos.Frontend.Vistas.Clientes
             }//fin PostBack
 
         }//cierra clase de guardar cliente
+        protected void SerValRFC(object source, ServerValidateEventArgs args)
+        {
+            args.IsValid = ReglasNegocioCliente.ValidarSizeRFC(args.Value);
 
+        }//ServerContrasena
         protected void Limpiar(object sender, EventArgs e)
         {
 

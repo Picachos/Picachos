@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <!--Se agregan datos de encabezado titulo , hojas de diseño css, script utilizados-->
-<head runat="server">
+<head id="Head1" runat="server">
     <title>Picachos</title>
 
     <link href="../Imagenes/pino.png" rel='shortcut icon' type='image/x-icon'/>  
@@ -20,14 +20,14 @@
     utilizen esta plantilla o "master page", al igual que una imagen de pie de pagina-->
 <body>
     <!-- se inicia con un formulario que utilizaran todas las paginas-->
-     <form  runat="server">
+     <form id="Form1"  runat="server">
         <section id="sectContenedor">
            <header>
-              <asp:Image  ImageUrl="~/Imagenes/cabecera8.png" runat="server" id="imgCabecera" OnDataBinding="cerrarSesion" />
+              <asp:Image  ImageUrl="~/Imagenes/cabecera8.png" runat="server" id="imgCabecera"  />
               <asp:Label  ID="labUsuario"       runat="server"></asp:Label>              
               <asp:Label  ID="labUsuarioID"     runat="server"></asp:Label> 
               <asp:Label  ID="labRol"           runat="server"></asp:Label>               
-              <asp:Button AccessKey="S" ID="btnCeSesion" runat="server" Text="[ Cerrar sesión ]" CausesValidation="false" OnClick="cerrarSesion"/>                                
+              <asp:Button  ID="btnCeSesion" runat="server" Text="[ Cerrar sesión ]" CausesValidation="false"/>                                
            </header>  
 
            <section class="sectMenPripal">

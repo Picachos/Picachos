@@ -272,3 +272,11 @@ C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\bin\Debug\EntityFramework.x
 C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
 C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\obj\Debug\Picachos.Backend.dll
 C:\Users\My Hp\Desktop\Picachos 5.5\Picachos.Backend\obj\Debug\Picachos.Backend.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll.config
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\Picachos.Backend.pdb
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\EntityFramework.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\bin\Debug\EntityFramework.xml
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.dll
+C:\Users\chris\Desktop\escuela\LSC\7mo\APS\Github\Picachos\Picachos.Backend\obj\Debug\Picachos.Backend.pdb

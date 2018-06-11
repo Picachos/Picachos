@@ -148,10 +148,10 @@ namespace Picachos.Frontend.Vistas.Productos
                                             {
                                                 productoID = existe,
                                                 nombreProducto = substrings[3],
-                                                materiales = ReglasNegocioProductosTerminados.GetInstancia().getMateriales(nombreProducto),
+                                                materiales = ReglasNegocioProductosTerminados.GetInstancia().getMateriales(substrings[3]),
                                                 tipo = "UNITARIO",
                                                 existencia = ExtPT + (Convert.ToInt32("-" + ARestar)),
-                                                descripcionProducto = ReglasNegocioEySProductos.GetInstancia().getDescripcionPT(nombreProducto),
+                                                descripcionProducto = ReglasNegocioEySProductos.GetInstancia().getDescripcionPT(substrings[3]),
                                             };
                                     
                                             ReglasNegocioProductosTerminados.GetInstancia().ActualizarPT(producto, ID);

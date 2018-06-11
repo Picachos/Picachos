@@ -1,5 +1,5 @@
 ﻿/*Elaborado por Robles Alvarado Sonia*/
-/*Ultima modificación:  08/06/2018*/
+/*Ultima modificación:  10/06/2018*/
 
 /*librerias que se utilizaran */
 
@@ -14,6 +14,8 @@ using System.Windows.Forms;
 using System.Data.Entity.SqlServer;
 
 /*Nombre del namespace con su ruta*/
+
+
 namespace Picachos.Backend.Negocio.LogicaNegocio
 {/*abre namespace*/
     public class ReglasNegocioCliente
@@ -176,9 +178,9 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
                 }//fin else
             }//fin using
         }//fin ValidacionRepCliente
-        public bool ValidarRFC(String rfc)
+        public Boolean ValidarRFC(String rfc)
         {
-            if (rfc.Length <= 13) // si rfc mayor a 13
+            if (rfc.Length != 13)// || rfc.Length!=13) // si rfc menor a 13
             {
                 return true;// "RFC invalido"; // mensaje de retorno
             }
@@ -189,39 +191,137 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
             }
         }
 
-        public bool ValidarTel(String tel)
+        public Boolean ValidarTel(String tel)
         {
-            if (tel.Length <= 9) // si telefono es mayor a 10
+            if (tel.Length != 10) // si telefono es mayor a 10
             {
                 return true;// "Telefono invalido"; // mensaje de retorno
             }
+            else // si no cumple
+            {
+                return false;// "Telefono valido";// mensaje de retorno
+            }
+        }
+        public static Boolean ValidarSizeRFC(string RFC) //Método boleano para validar contraseña, recibe una contraseña tipo cadena
+        {
 
+            //Declaración de variables tipo booleanas
+            Boolean hayMay = false, hayMin = false, hayNum = false;
+            if (RFC.Length >= 13) //  tamaño de RFC mayor o igual a 6
+            {//abrir if
+                for (int x = 0; x < RFC.Length; x++)
+                {// abrir for
+                    if (Char.IsNumber(RFC[x])) // si es numero 
+                    {
+                        hayNum = true;
+                    }
+                    if (Char.IsLower(RFC[x]))// si tiene minusculas
+                    {
+                        hayMin = true;
+                    }
+                    /*if (Char.IsUpper(RFC[x])) // si tiene mayusculas
+                    {
+                        hayMay = true;
+                    }*/
+                }//cierra for
+
+                if (hayNum && hayMin)//&& hayMay) // si cumple con las condiciones
+                {
+                    return true; // regresa verdadero
+                }
+                else // si no
+                {
+                    return false; // regresa falso
+                }
+
+            }//cierra if
+            else // si contraseña no cumple con el tamaño
+            {
+                return false; // regresa falso
+            }
+
+        }//ValidarSizeRFC
+
+        public static Boolean ValidarRFC2(String rfc)
+        {//Metodo para validacion de campo en consultas de clientes 
+            if (rfc.Length == 13)// || rfc.Length!=13) // si rfc menor a 13
+            {
+                return true;// "RFC invalido"; // mensaje de retorno
+            }
+
+            else // si no cumple
+            {
+                return false;// "RFC valido";// mensaje de retorno
+            }
+        }
+        public static Boolean ValidarTel2(String telefono)
+        {
+            if (telefono.Length == 10) // si telefono es mayor a 10
+            {
+                return true;// "Telefono invalido"; // mensaje de retorno
+            }
             else // si no cumple
             {
                 return false;// "Telefono valido";// mensaje de retorno
             }
         }
 
+        public static Boolean ValidarSizeRFC2(string RFC) //Método boleano para validar contraseña, recibe una contraseña tipo cadena
+        {
+
+            //Declaración de variables tipo booleanas
+            Boolean hayMay = false, hayMin = false, hayNum = false;
+            if (RFC.Length >= 13) //  tamaño de RFC mayor o igual a 6
+            {//abrir if
+                for (int x = 0; x < RFC.Length; x++)
+                {// abrir for
+                    if (Char.IsNumber(RFC[x])) // si es numero 
+                    {
+                        hayNum = true;
+                    }
+                    /*if (Char.IsLower(RFC[x]))// si tiene minusculas
+                    {
+                        hayMin = true;
+                    }*/
+                    if (Char.IsUpper(RFC[x])) // si tiene mayusculas
+                    {
+                        hayMay = true;
+                    }
+                }//cierra for
+
+                if (hayNum && hayMay)//hayMin && hayMay) // si cumple con las condiciones
+                {
+                    return true; // regresa verdadero
+                }
+                else // si no
+                {
+                    return false; // regresa falso
+                }
+
+            }//cierra if
+            else // si contraseña no cumple con el tamaño
+            {
+                return false; // regresa falso
+            }
+
+        }//ValidarSizeRFC
+
         public String ValidarCampos(cliente Cliente)
         {
-            if (ValidarTel(Cliente.telefono)) // Se manda llamar al método
+            if (Cliente.nombre == Cliente.rfc) // si nombre de usuario y contraseña son iguales
             {
-                return "Debe contener 10 digitos"; // formato valido , mensaje de retorno
+                return "No esta permitido nombre repetidos"; // mensaje de retorno
+            }
+            if (ValidarSizeRFC2(Cliente.rfc) && ValidarRFC2(Cliente.rfc) && ValidarTel2(Cliente.telefono))
+            // Se manda llamar al método 
+            {
+                return "OK"; // formato valido , mensaje de retorno
             }
             else // si no cumple
             {
-                return "OK";// mensaje de retorno
-            }//<asp:ListItem>Administrador</asp:ListItem>
-            if (ValidarRFC(Cliente.rfc)) // Se manda llamar al método
-            {
-                return "Debe contener 12 o 13 caracteres"; // formato valido , mensaje de retorno
-            }
-            else // si no cumple
-            {
-                return "OK";// mensaje de retorno
+                return "Formato invalido ";// mensaje de retorno
             }//<asp:ListItem>Administrador</asp:ListItem>
         }
-
 
         public Boolean ValidarSesion(String nombreUsuario, String contrasena)
         {
@@ -249,6 +349,8 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
                 return "No se encontro el nombre";
             }
         }
+
         #endregion
     } /*cierra Clase ReglasNegocioCliente*/
 } /*cierra namespace*/
+
