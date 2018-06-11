@@ -196,7 +196,7 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         }/*cierra metodo*/
 
          //trae  el nombre de una materia prima buscada por ID
-        public static String getNombreporID(int IDmateriaPrima)
+        public  String getNombreporID(int IDmateriaPrima)
         {/*abre metodo*/
             bool existe = false;
            using (var en = new PicachosEntidades())
@@ -220,7 +220,7 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
 
 
         // para saber el ID de una materia a buscar por nombre
-        public static int getDatoID(String materiaNombre)
+        public  int getDatoID(String materiaNombre)
         {/*abre metodo*/
             using (var en = new PicachosEntidades())
             {/*abre using*/
@@ -238,7 +238,7 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         }/*cierra metodo*/
 
         // para buscar la existencia de la materia prima a buscar por nombre
-        public static int getDatoCantidad(String materiaNombre)
+        public  int getDatoCantidad(String materiaNombre)
         {/*abre metodo*/
             using (var en = new PicachosEntidades())
             {/*abre using*/

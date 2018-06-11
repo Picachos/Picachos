@@ -20,8 +20,8 @@
            
            <asp:DropDownList CssClass="ddlRegRegPT" ID="ddlRegRegPT" runat="server"/>
 
-           <asp:Button AccessKey="A" ID="btnAgregarUnitario" CssClass="btnAgregarUnitario" runat="server"  Text="AgregarUni" OnClick="agregarListaUni"/>
-           <asp:Button AccessKey="L" ID="btnAgregarEmpaquetado" CssClass="btnAgregarEmpaquetado" runat="server"  Text="AgregarEmp" OnClick="agregarListaEmp"/>
+           <asp:Button AccessKey="A" ID="btnAgregarUnitario" CssClass="btnAgregarUnitario" runat="server"  Text="Agregar" OnClick="agregarListaUni"/>
+           <asp:Button AccessKey="L" ID="btnAgregarEmpaquetado" CssClass="btnAgregarEmpaquetado" runat="server"  Text="Agregar" OnClick="agregarListaEmp"/>
 
            <asp:TextBox  ID="txbSelecUno" CssClass="txbSelecUno" Enabled="false" runat="server" ></asp:TextBox>
            <asp:Button  ID="btnSelecUno" CssClass="btnSelecUno" runat="server"  Text="x" OnClick="botonUno"/> 
@@ -38,8 +38,8 @@
            <asp:Label ID="labCantidad" CssClass="labCantidad" runat="server" Text="Cantidad: "></asp:Label>
            <asp:TextBox  ID="txbCant" CssClass="txbCant"  runat="server" MaxLength="10" ></asp:TextBox>
 
-           <asp:Button AccessKey="G" ID="btnGuardarUnitario" CssClass="btnGuardarUnitario" runat="server"  Text="GuardarUNI" OnClick="GuardarUnitario"   />   
-           <asp:Button AccessKey="S" ID="btnGuardarEmpaquetado" CssClass="btnGuardarEmpaquetado" runat="server"  Text="GuardarEMP" OnClick="GuardarEmpaquetado"  />         
+           <asp:Button AccessKey="G" ID="btnGuardarUnitario" CssClass="btnGuardarUnitario" runat="server"  Text="Guardar" OnClick="GuardarUnitario"   />   
+           <asp:Button AccessKey="S" ID="btnGuardarEmpaquetado" CssClass="btnGuardarEmpaquetado" runat="server"  Text="Guardar" OnClick="GuardarEmpaquetado"  />         
            <asp:Button AccessKey="L" ID="btnLimpiar" CssClass="btnLimpiar" runat="server"  Text="Limpiar"  CausesValidation="false" OnClick="btnLimpiar_Click" />
            
 

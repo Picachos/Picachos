@@ -1,5 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Vistas/Picachos.Master" AutoEventWireup="true" CodeBehind="ConsultarProductosTerminados.aspx.cs" Inherits="Picachos.Frontend.Vistas.Productos.ConsultarProductosTerminados" %>
+﻿ <%--Elaborado por Roxana Rivera Espinoza, Ultima modificación: 09/06/2018--%>
 
+<%@ Page Title="" Language="C#" MasterPageFile="~/Vistas/Picachos.Master" AutoEventWireup="true" CodeBehind="ConsultarProductosTerminados.aspx.cs" Inherits="Picachos.Frontend.Vistas.Productos.ConsultarProductosTerminados" %>
 
 <asp:Content ID="ContentCPT" ContentPlaceHolderID="contPHConsultaPT" runat="server">
      <link href="../../Estilos/ConsultarProductosTerminados.css" rel="stylesheet" type="text/css" />

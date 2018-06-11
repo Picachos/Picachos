@@ -72,6 +72,7 @@
     <Content Include="Estilos\ConsultarInventario.css" />
     <Content Include="Estilos\ConsultarUsuarios.css" />
     <Content Include="Estilos\ConsultarProductosTerminados.css" />
+    <Content Include="Estilos\ReportesEySProductos.css" />
     <Content Include="Estilos\fontello.css" />
     <Content Include="Estilos\Login.css" />
     <Content Include="Estilos\Master.css" />

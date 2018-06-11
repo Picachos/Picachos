@@ -1,5 +1,5 @@
 ﻿/*Elaborado por Roxana Rivera Espinoza*/
-/*Ultima modificación:  19/junio/2018*/
+/*Ultima modificación:  09/junio/2018*/
 
 //liberias que se utilizaran
 using Picachos.Backend.Negocio.LogicaNegocio;

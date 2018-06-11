@@ -19,10 +19,10 @@
               <asp:RequiredFieldValidator ID="reqFVNomUsua" CssClass="reqFVNomUsua" runat="server" ControlToValidate="txbNomUsua" ErrorMessage="Favor de ingresar nombre de usuario"></asp:RequiredFieldValidator>
                
               <asp:Label ID="labContra" CssClass="labContra" runat="server" Text="Contraseña:"></asp:Label>
-              <asp:TextBox CssClass="txbContra" ID="txbContra" runat="server" TextMode="Password" MaxLength="20"  ToolTip="Ingresar mínimo 6 caracteres, y un máximo de 20; Debe contener por lo menos una letra mayúscula y un número; Ejemplo: Picacho7A"  ></asp:TextBox> 
+              <asp:TextBox CssClass="txbContra" ID="txbContra" runat="server" TextMode="Password" MaxLength="20"  ToolTip="Ingresar minimo 6 caracteres, y un maximo de 20; Debe contener por lo menos una letra mayuscula y un numero; Ejemplo: Picacho7A"  ></asp:TextBox> 
               <asp:RequiredFieldValidator ID="reqFVContra" CssClass="reqFVContra" runat="server" ControlToValidate="txbContra" ErrorMessage="Favor de ingresar contraseña" ></asp:RequiredFieldValidator>
              
-              <asp:CustomValidator CssClass="cValtxbContra" ID="cValtxbContra" runat="server" ControlToValidate="txbContra" ErrorMessage="Error para más informacíon consulta el botón [?]" OnServerValidate="SerValContrasena"></asp:CustomValidator> 
+              <asp:CustomValidator CssClass="cValtxbContra" ID="cValtxbContra" runat="server" ControlToValidate="txbContra" ErrorMessage="Error para mas informacíon consulta el botón [?]" OnServerValidate="SerValContrasena"></asp:CustomValidator> 
                
 
               <asp:Label ID="labConfiContra" CssClass="labConfiContra" runat="server" Text="Confirmar contraseña:"></asp:Label>                
@@ -42,7 +42,7 @@
               <asp:ImageButton ID="imgBtnPregunta" AccessKey="I" CssClass="imgBtnPregunta" runat="server" ImageUrl="~/Imagenes/pregunta.png" CausesValidation="false" OnClick="Pregunta"   />
               <asp:Button AccessKey="G" ID="btnGuardar" CssClass="btnGuardar" runat="server" style="font-size: large" Text="Guardar" OnClick="GuardarUsuario"  />           
               <asp:Button AccessKey="L" ID="btnLimpiar" CssClass="btnLimpiar" runat="server" style="font-size: large" Text="Limpiar"  CausesValidation="false" OnClick="Limpiar" />     
-              <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txbNombre" ErrorMessage="RegularExpressionValidator" ForeColor="Red" ValidationExpression="^[a-z &amp; A-Z]*$">No ingreses caracteres especiales en Nombre usuario</asp:RegularExpressionValidator>
+              <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txbNombre" ErrorMessage="RegularExpressionValidator" ForeColor="Red" ValidationExpression="^[a-z &amp; A-Z]*$">No ingreses Caracteres especiales en Nombre usuario</asp:RegularExpressionValidator>
          </section>
       
 </asp:Content>

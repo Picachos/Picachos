@@ -1,4 +1,6 @@
-﻿//liberias que se utilizaran
+﻿/*Elaborado por Roxana Rivera Espinoza*/
+/*Ultima modificación: 09/06/2018 */
+//liberias que se utilizaran
 using Picachos.Backend.Negocio.EntidadesNegocio;
 using Picachos.Backend.Negocio.LogicaNegocio;
 using System;
@@ -20,6 +22,7 @@ namespace Picachos.Frontend.Vistas.Productos
             this.UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None;
             if (!IsPostBack)
             {
+
                 if (Session["new"] != null)
                 {
                     //Si existe la sesion continuara donde esta
@@ -28,7 +31,7 @@ namespace Picachos.Frontend.Vistas.Productos
                 }
                 else
                 {
-                    Response.Redirect("Login.aspx");
+                    Response.Redirect("/Vistas/Login/Login.aspx");
                 }
             }
         }//cierra pageload

@@ -120,10 +120,10 @@
     </Compile>
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioClientes.cs" />
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioEntradaSalidaMP.cs" />
+    <Compile Include="Negocio\LogicaNegocio\ReglasNegocioEySProductos.cs" />
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioMateriaPrima.cs" />
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioProductosTerminados.cs" />
     <Compile Include="Negocio\LogicaNegocio\ReglasNegocioUsuario.cs" />
-    <Compile Include="Negocio\LogicaNegocio\ReglasNegocioVentas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

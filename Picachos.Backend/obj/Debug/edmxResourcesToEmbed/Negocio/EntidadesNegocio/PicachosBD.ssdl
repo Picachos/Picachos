@@ -292,11 +292,12 @@
       <PropertyRef Name="ventaID" />
     </Key>
     <Property Name="ventaID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
-    <Property Name="productoId" Type="int" />
+    <Property Name="productoID" Type="int" />
     <Property Name="clienteID" Type="int" />
-    <Property Name="venta" Type="int" />
-    <Property Name="cantidad" Type="int" />
     <Property Name="total" Type="float" />
+    <Property Name="descripcion" Type="varchar" MaxLength="200" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="folio" Type="int" />
   </EntityType>
   <Association Name="FK__convenio__fk_Cli__2082B559">
     <End Role="cliente" Type="picachosModel.Store.cliente" Multiplicity="0..1" />
@@ -534,7 +535,7 @@
         <PropertyRef Name="productoID" />
       </Principal>
       <Dependent Role="venta">
-        <PropertyRef Name="productoId" />
+        <PropertyRef Name="productoID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

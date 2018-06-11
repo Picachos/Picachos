@@ -46,7 +46,7 @@ namespace Picachos.Frontend.Vistas.Inventario
                 }
                 else
                 {
-                    Response.Redirect("Login.aspx");
+                    Response.Redirect("/Vistas/Login/Login.aspx");
                 }
             }//cierra if Ispostback
         }//cierra pageload
@@ -79,7 +79,7 @@ namespace Picachos.Frontend.Vistas.Inventario
                        {
                            materiaPrimaID = existe,
                            observacion = txbDesc.Text,
-                           fecha = DateTime.Today,
+                           fecha = DateTime.Now,
                            cantidadES = Convert.ToInt32(txbCant.Text),
 
                        };
@@ -133,11 +133,11 @@ namespace Picachos.Frontend.Vistas.Inventario
                         {
                             materiaPrimaID = existe,
                             observacion = txbDesc.Text,
-                            fecha = DateTime.Today,
-                            cantidadES = Convert.ToInt32(txbCant.Text),
+                            fecha = DateTime.Now,
+                            cantidadES = -Convert.ToInt32(txbCant.Text),
 
                         };
-                        if (existe <= (Convert.ToInt32(txbCant.Text)) && Convert.ToInt32(txbCant.Text) > 0)
+                        if (AuxExistencia >= (Convert.ToInt32(txbCant.Text)) && Convert.ToInt32(txbCant.Text) > 0)
                         {
                             ReglasNegocioEntradaSalidaMP.GetInstancia().AgregarSalida(salida);
                             var materiaPrima = new materiaPrima
@@ -157,7 +157,7 @@ namespace Picachos.Frontend.Vistas.Inventario
                             String mensaje = "No permite registros Negativos o Nulos";
                             MessageBox.Show(mensaje, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
                         }
-                        if (existe > (Convert.ToInt32(txbCant.Text)))
+                        if (AuxExistencia < (Convert.ToInt32(txbCant.Text)))
                         {
                             String mensaje = "!La cantidad de salida es mayor que la cantidad en existencia!\n \t CANTIDAD EXISTENTE: " + AuxExistencia;
                             MessageBox.Show(mensaje, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);

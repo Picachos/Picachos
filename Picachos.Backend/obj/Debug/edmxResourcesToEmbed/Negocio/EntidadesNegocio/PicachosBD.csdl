@@ -285,11 +285,12 @@
       <PropertyRef Name="ventaID" />
     </Key>
     <Property Name="ventaID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
-    <Property Name="productoId" Type="Int32" />
+    <Property Name="productoID" Type="Int32" />
     <Property Name="clienteID" Type="Int32" />
-    <Property Name="venta1" Type="Int32" />
-    <Property Name="cantidad" Type="Int32" />
     <Property Name="total" Type="Double" />
+    <Property Name="descripcion" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="folio" Type="Int32" />
     <NavigationProperty Name="cliente" Relationship="picachosModel.fk_Clienteven" FromRole="venta" ToRole="cliente" />
     <NavigationProperty Name="corteDeDia" Relationship="picachosModel.fk_VentaCort" FromRole="venta" ToRole="corteDeDia" />
     <NavigationProperty Name="productoTerminado" Relationship="picachosModel.fk_Productoven" FromRole="venta" ToRole="productoTerminado" />
@@ -471,7 +472,7 @@
         <PropertyRef Name="productoID" />
       </Principal>
       <Dependent Role="venta">
-        <PropertyRef Name="productoId" />
+        <PropertyRef Name="productoID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

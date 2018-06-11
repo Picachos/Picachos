@@ -1,4 +1,6 @@
-﻿//liberias que se utilizaran
+﻿/*Elaborado por Roxana Rivera Espinoza*/
+/*Ultima modificación: 10/06/2018 */
+//liberias que se utilizaran
 using Picachos.Backend.Negocio.EntidadesNegocio;
 using Picachos.Backend.Negocio.LogicaNegocio;
 using System;
@@ -314,7 +316,7 @@ namespace Picachos.Frontend.Vistas.Productos
                             tipo = "UNITARIO",
                             existencia = 0,
 
-                            materiales = txbSelecUno.Text + "     " + txbSelecDos.Text + "    " + txbSelecTres.Text,
+                            materiales = txbSelecUno.Text + "," + txbSelecDos.Text + "," + txbSelecTres.Text,
                             descripcionProducto = txbDesc.Text,
                             venta = null,
                         };
@@ -389,7 +391,7 @@ namespace Picachos.Frontend.Vistas.Productos
                             nombreProducto = txbNombrePT.Text,
                             tipo = "EMPAQUETADO",
                             existencia = 0,
-                            materiales = txbCant.Text + "  Piezas de  " + "            " + txbSelecDos.Text,
+                            materiales = txbCant.Text + "  Piezas de " + txbSelecCuatro.Text,
                             descripcionProducto = txbDesc.Text,
                             venta = null,
                         };

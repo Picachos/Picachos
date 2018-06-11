@@ -1,5 +1,5 @@
 ﻿/*Elaborado por Roxana Rivera Espinoza*/
-/*Ultima modificación:  */
+/*Ultima modificación: 09/06/2018 */
 
 /*liberias que se utilizaran */
 using Picachos.Backend.Negocio.EntidadesNegocio;
@@ -44,12 +44,18 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
         {
             using (var en = new PicachosEntidades())
             {
-                var cantidadIDBorrado = (from x in en.productoTerminado
+                var cantidadIDBorradoESPT = (from x in en.productoTerminadoES
+                                           where x.productoID == productoID
+                                           select x).Count();
+                var cantidadIDBorradoPT = (from x in en.productoTerminado
                                          where x.productoID == productoID
                                          select x).Count();
+                var productoBDESPT = en.productoTerminadoES.FirstOrDefault(x => x.productoID == productoID);
+                en.Entry(productoBDESPT).State = System.Data.EntityState.Deleted;
+                en.SaveChanges();
 
-                var productoBD = en.productoTerminado.FirstOrDefault(x => x.productoID == productoID);
-                en.Entry(productoBD).State = System.Data.EntityState.Deleted;
+                var productoBDPT = en.productoTerminado.FirstOrDefault(x => x.productoID == productoID);
+                en.Entry(productoBDPT).State = System.Data.EntityState.Deleted;
                 en.SaveChanges();
             }
         }
@@ -106,6 +112,48 @@ namespace Picachos.Backend.Negocio.LogicaNegocio
             }/*cierra using*/
         }/*cierra metodo*/
 
+
+        public String getMateriales(String nombreProducto)
+        {/*abre metodo*/
+            bool existe = false;
+            using (var en = new PicachosEntidades())
+            {/*abre using*/
+                existe = en.productoTerminado.Any(x => x.nombreProducto.Equals(nombreProducto));
+                if (existe)
+                {/*abre if*/
+                    var query = from p in en.productoTerminado
+                                where p.nombreProducto.Equals(nombreProducto)
+                                select p;
+                    foreach (var productoTerminado in query)
+                    {/*abre foreach en cada productos*/
+                        if (productoTerminado.nombreProducto.Equals(nombreProducto))
+                            return productoTerminado.materiales;
+                    }/*cierra foreach regresando resultado*/
+                }/*cierra if*/
+                return "no existe";/*mensaje de error*/
+            }/*cierra using*/
+        }/*cierra metodo*/
+
+        public String getTipo(String nombreProducto)
+        {/*abre metodo*/
+            bool existe = false;
+            using (var en = new PicachosEntidades())
+            {/*abre using*/
+                existe = en.productoTerminado.Any(x => x.nombreProducto.Equals(nombreProducto));
+                if (existe)
+                {/*abre if*/
+                    var query = from p in en.productoTerminado
+                                where p.nombreProducto.Equals(nombreProducto)
+                                select p;
+                    foreach (var productoTerminado in query)
+                    {/*abre foreach en cada productos*/
+                        if (productoTerminado.nombreProducto.Equals(nombreProducto))
+                            return productoTerminado.tipo;
+                    }/*cierra foreach regresando resultado*/
+                }/*cierra if*/
+                return "no existe";/*mensaje de error*/
+            }/*cierra using*/
+        }/*cierra metodo*/
 
 
 
